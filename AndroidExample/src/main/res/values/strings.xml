@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Study</string>
+    <string name="android_study_plan">Android学习路线</string>
+    <string name="title">标题</string>
+    <string name="main_title">Android学习路线</string>
+    <string name="test_character">测试使用的文字</string>
+
+    <string name="base_knowledge">基础知识</string>
+    <string name="ui">UI</string>
+    <string name="communication">通信</string>
+    <string name="java_thread">多线程</string>
+    <string name="data_persistence">数据持久化</string>
+    <string name="performance">性能</string>
+    <string name="debug">调试</string>
+    <string name="adaptive">适配</string>
+    <string name="test">测试</string>
+    <string name="safe">安全</string>
+    <string name="ndk">NDK</string>
+    <string name="phone_function">手机功能</string>
+    <string name="extend">第三方扩展</string>
+    <string name="other">其他</string>
+
+    <string name="JavaBase">Java基础</string>
+    <string name="data_structure">数据结构</string>
+    <string name="object_oriented_ideas">面向对象思想</string>
+    <string name="design_mode">设计模式</string>
+    <string name="android_sdk">AndroidSDK</string>
+    <string name="activity">Activity</string>
+    <string name="service">Service</string>
+    <string name="broadcast_receiver">BroadcastReceiver</string>
+    <string name="content_provider">ContentProvider</string>
+    <string name="action_bar">ActionBar</string>
+    <string name="fragment">Fragment</string>
+    <string name="handler_looper_message">Handler、Looper、Message</string>
+
+    <string name="Layout">Layout</string>
+    <string name="View">View</string>
+    <string name="CustomView">CustomView</string>
+    <string name="anim">Anim</string>
+    <string name="Resource">Resource</string>
+    <string name="OpenGL">OpenGL</string>
+    <string name="event_dispatch">View事件分发</string>
+
+    <string name="handler_base_info">Handler</string>
+    <string name="looper_base_info">Looper</string>
+    <string name="message_base_info">Message</string>
+    <string name="message_queue_info">MessageQueue</string>
+    <string name="handler_summary">总结</string>
+
+    <string name="thread_concept">概念与原理</string>
+    <string name="thread_create_run">创建与启动</string>
+    <string name="thread_stack_model">线程栈模型与线程的变量</string>
+    <string name="thread_state_convert">线程状态的转换</string>
+    <string name="thread_sync_lock">线程同步与锁</string>
+    <string name="thread_interaction">线程交互</string>ii
+    <string name="thread_dispatch">线程调度</string>
+    <string name="thread_concurrent">并发协作</string>
+    <string name="thread_new_character">新特性</string>
+
+    <string name="thread_process">线程和进程</string>
+    <string name="thread_in_java">Java中的线程</string>
+
+    <string name="thread_define">定义线程</string>
+    <string name="thread_instantiation">实例化线程</string>
+    <string name="thread_start">启动线程</string>
+    <string name="thread_problem">常见问题</string>
+    <string name="thread_sample">例子</string>
+
+    <string name="thread_state">线程状态</string>
+    <string name="thread_priority">线程的优先级</string>
+    <string name="thread_sleep1">Thread.sleep()</string>
+    <string name="thread_yield">Thread.yield()</string>
+    <string name="thread_join">join()</string>
+    <string name="thread_state_convert_summary">小结</string>
+
+    <string name="thread_sync_problem">同步问题提出</string>
+    <string name="thread_sync_lock1">同步和锁定</string>
+    <string name="thread_static_method_sync">静态方法同步</string>
+    <string name="thread_not_get_lock">线程未获得锁</string>
+    <string name="thread_when_sync">何时需要同步</string>
+    <string name="thread_safe_class">线程安全类</string>
+    <string name="thread_dead_lock">线程死锁</string>
+    <string name="thread_sync_lock_summary">小结</string>
+
+    <string name="thread_base_knowledge">基础知识</string>
+    <string name="thread_more_wait_lock">多个线程等待一个对象锁</string>
+
+    <string name="thread_sleep">休眠</string>
+    <string name="thread_priority1">优先级</string>
+    <string name="thread_concession">让步</string>
+    <string name="thread_merge">合并</string>
+    <string name="thread_guard">守护线程</string>
+    <string name="thread_sync_method">同步方法</string>
+    <string name="thread_sync_block">同步块</string>
+
+    <string name="thread_producer_consumer">生产者消费者</string>
+    <string name="thread_dead_lock1">死锁</string>
+    <string name="thread_volatile">volatile关键字</string>
+
+    <string name="thread_pool">线程池</string>
+    <string name="thread_return_value">有返回值的线程</string>
+    <string name="thread_lock_one">锁（上）</string>
+    <string name="thread_lock_two">锁（下）</string>
+    <string name="thread_semaphore">信号量</string>
+    <string name="thread_blocking_queue">阻塞队列</string>
+    <string name="thread_blocking_stack">阻塞栈</string>
+    <string name="thread_condition_variable">条件变量</string>
+    <string name="thread_atomic_mass">原子量</string>
+    <string name="thread_obstruction_marker">障碍器</string>
+
+    <string name="tcp_udp">TCP/UDP</string>
+    <string name="http">Http</string>
+    <string name="socket">Socket</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="nfc">NFC</string>
+    <string name="headset">Headset</string>
+    <string name="usb">USB</string>
+
+    <string name="udp">UDP</string>
+    <string name="tcp">TCP</string>
+    <string name="udp_tcp_diff">区别</string>
+
+    <string name="httpConnection">HttpConnection</string>
+    <string name="httpClient">HttpClient</string>
+    <string name="http_specialty">HTTP链接特点</string>
+
+    <string name="socket_use">Socket用法</string>
+    <string name="socket_tcp">Socket与TCP</string>
+    <string name="socket_http">Socket与Http</string>
+
+    <string name="SQLite">SQLite</string>
+    <string name="file">File</string>
+    <string name="sharedPreferences">SharedPreferences</string>
+
+    <string name="ui_optimize">UI优化</string>
+    <string name="memory_optimize">内存优化</string>
+    <string name="electric_optimize">电量优化</string>
+    <string name="flow_optimize">流量优化</string>
+
+    <string name="logcat">Logcat</string>
+    <string name="adb">adb</string>
+    <string name="traceview">TraceView</string>
+    <string name="heap">Heap</string>
+    <string name="lint">Lint</string>
+    <string name="hierarchy_viewer">HierarchyViewer</string>
+
+    <string name="os_version">OS Version</string>
+    <string name="screen_size">Screen Size</string>
+    <string name="screen_px">Screen px</string>
+
+    <string name="monkey">Monkey</string>
+    <string name="monkey_runner">MonkeyRunner</string>
+    <string name="junit">JUnit</string>
+    <string name="robotium">Robotium</string>
+    <string name="appium">Appium</string>
+    <string name="athrun">Athrun(TMTS)</string>
+    <string name="ui_automator">UIAutomator</string>
+
+    <string name="server_safe">服务器安全</string>
+    <string name="communication_safe">通信安全</string>
+    <string name="data_encryption">数据加密</string>
+    <string name="data_attestation">数据验签</string>
+    <string name="code_confusion">代码混淆</string>
+    <string name="call_safe">Webview/JS安全调用</string>
+    <string name="other_safe">MD5、DES、RSA、https、证书、权限</string>
+
+    <string name="jni">JNI</string>
+    <string name="c">C语言</string>
+    <string name="c1">C++</string>
+
+    <string name="phone">电话</string>
+    <string name="SMS">彩/短信</string>
+    <string name="camera">Camera</string>
+    <string name="audio">Audio</string>
+    <string name="sd_card">SD卡</string>
+    <string name="sensor">感应器</string>
+
+    <string name="map">地图</string>
+    <string name="speech_recognition">语音识别</string>
+    <string name="pay">支付</string>
+    <string name="statistic_analysis">统计分析</string>
+    <string name="advertisement">广告</string>
+
+    <string name="intent">intent</string>
+    <string name="android_manifest">Manifest</string>
+    <string name="aidl">AIDL</string>
+    <string name="wifi">wifi</string>
+    <string name="Internationalization">国际化</string>
+    <string name="popupWindow">PopupWindow</string>
+
+    <string name="my_frameLayout">FrameLayout</string>
+    <string name="my_linearLayout">LinearLayout</string>
+    <string name="my_relativeLayout">RelativeLayout</string>
+    <string name="my_gridLayout">GridLayout</string>
+    <string name="my_drawerLayout">DrawerLayout</string>
+    <string name="my_tableLayout">TableLayout</string>
+    <string name="my_sliding_panel_layout">SlidingPanelLayout</string>
+
+    <string name="widgets">Widgets</string>
+    <string name="containers">Containers</string>
+    <string name="data_time">Data-Time</string>
+    <string name="expert">Expert</string>
+    <string name="custom">Custom</string>
+
+    <string name="extends_system_view">extends system view</string>
+    <string name="extends_view">extends view</string>
+    <string name="combination_view">combination view</string>
+    <string name="view_coordinate_info">View坐标系统</string>
+
+    <string name="view_animation">View Animation</string>
+    <string name="property_animation">Property Animation</string>
+
+    <string name="assets">assets</string>
+    <string name="res">res</string>
+
+    <string name="textView">TextView</string>
+    <string name="button">Button</string>
+    <string name="check_box">CheckBox</string>
+    <string name="radio_button">RadioButton</string>
+    <string name="switch1">Switch</string>
+    <string name="toggle_button">ToggleButton</string>
+    <string name="image_button">ImageButton</string>
+    <string name="image_view">ImageView</string>
+    <string name="progress_bar">ProgressBar</string>
+    <string name="rating_bar">RatingBar</string>
+    <string name="spinner">Spinner</string>
+    <string name="webView">WebView</string>
+    <string name="seek_bar">SeekBar</string>
+    <string name="tabLayout">TabLayout</string>
+
+    <string name="radioGroup">RadioGroup</string>
+    <string name="listView">ListView</string>
+    <string name="gridView">GridView</string>
+    <string name="tabHost">TabHost</string>
+    <string name="expandableListView">ExpandableListView</string>
+    <string name="scrollView">ScrollView</string>
+    <string name="slidingDrawer">SlidingDrawer</string>
+    <string name="gallery">Gallery</string>
+    <string name="videoView">VideoView</string>
+    <string name="dialerFilter">DialerFilter</string>
+    <string name="recyclerView">RecyclerView</string>
+    <string name="cardView">CardView</string>
+
+    <string name="textClock">TextClock</string>
+    <string name="analogClock">AnalogClock</string>
+    <string name="chronometer">Chronometer</string>
+    <string name="datePicker">DatePicker</string>
+    <string name="timePicker">TimePicker</string>
+    <string name="calendarView">CalendarView</string>
+
+
+    <string name="space">Space</string>
+    <string name="checkedTextView">CheckedTextView</string>
+    <string name="quickContactBadge">QuickContactBadge</string>
+    <string name="extractEditText">ExtractEditText</string>
+    <string name="autoCompleteTextView">AutoCompleteTextView</string>
+    <string name="multiAutoCompleteTextView">MultiAutoCompleteTextView</string>
+    <string name="numberPicker">NumberPicker</string>
+    <string name="zoomButton">ZoomButton</string>
+    <string name="chronometer1">Chronometer</string>
+    <string name="zoomController">ZoomController</string>
+    <string name="gestureOverlayView">GestureOverlayView</string>
+    <string name="surfaceView">SurfaceView</string>
+    <string name="textureView">TextureView</string>
+    <string name="stackView">StackView</string>
+    <string name="viewStub">ViewStub</string>
+    <string name="viewAnimator">ViewAnimator</string>
+    <string name="viewFlipper">ViewFlipper</string>
+    <string name="viewSwitcher">ViewSwitcher</string>
+    <string name="adapterViewFlipper">AdapterViewFlipper</string>
+    <string name="imageViewSwitcher">ImageSwitcher</string>
+    <string name="textSwitcher">TextSwitcher</string>
+    <string name="viewPager">ViewPager</string>
+
+    <string name="include">include</string>
+    <string name="fragment1">fragment</string>
+    <string name="requestFocus">requestFocus</string>
+
+    <string name="tweenAnimation">Tween Animation</string>
+    <string name="frameAnimation">Frame Animation</string>
+
+    <string name="commonProperty">通用属性</string>
+    <string name="alpha">alpha</string>
+    <string name="scale">scale</string>
+    <string name="translate">translate</string>
+    <string name="rotate">rotate</string>
+    <string name="animation_set">AnimationSet</string>
+    <string name="interpolator1">interpolator</string>
+    <string name="animation_listener">listener</string>
+    <string name="layout_animation_controller">LayoutAnimationController</string>
+    <string name="animation_list">Animation-list</string>
+
+    <string name="property_animation_base_info">基本信息</string>
+    <string name="valueAnimator">ValueAnimator</string>
+    <string name="objectAnimator">ObjectAnimator</string>
+    <string name="propertyValuesHolder">PropertyValuesHolder</string>
+    <string name="animator_set_code">AnimatorSet(code)</string>
+    <string name="animator_set_xml">AnimatorSet(xml)</string>
+
+
+    <string name="value_animator_use1">基本用法</string>
+    <string name="value_animator_use2">加速器与转换器</string>
+    <string name="value_animator_use3">ofObject()用法</string>
+
+    <string name="object_animation_base_info">基本用法</string>
+    <string name="object_animation_principle">ObjectAnimator动画原理</string>
+    <string name="object_animation_define">自定义ObjectAnimator属性</string>
+    <string name="object_animation_method">常用函数</string>
+
+    <string name="property_value_holder_info">基本信息</string>
+    <string name="property_value_holder_method">ofFloat(),ofInt()</string>
+    <string name="property_value_holder_method2">ofObject()</string>
+    <string name="property_value_holder_keyframe">ofKeyframe()</string>
+
+    <string name="keyframe_base_info">基本信息</string>
+    <string name="keyframe_method">ofInt(),onFloat()</string>
+    <string name="keyframe_method2">ofObject()</string>
+    <string name="keyframe_interpolator">Interpolator</string>
+    <string name="keyframe_other_info">其他信息</string>
+
+    <string name="animator_set_play_order">播放次序</string>
+    <string name="animator_set_builder">AnimatorSet.Builder</string>
+    <string name="animator_set_listener">AnimatorSet监听器</string>
+    <string name="animator_set_set">逐个设置与统一设置</string>
+    <string name="animator_set_set_delay">setStartDelay()</string>
+
+    <string name="animator_set_xml_common">通用属性</string>
+    <string name="animator_set_xml_animator">animator</string>
+    <string name="animator_set_xml_object_animator">objectAnimator</string>
+    <string name="animator_set_xml_set">set</string>
+    <string name="animator_set_xml_sample">sample</string>
+
+    <string name="assetManager">AssetManager</string>
+
+    <string name="anim1">anim</string>
+    <string name="animator">animator</string>
+    <string name="color">color</string>
+    <string name="drawable">drawable</string>
+    <string name="interpolator">interpolator</string>
+    <string name="layout">layout</string>
+    <string name="menu">menu</string>
+    <string name="raw">raw</string>
+    <string name="values">values</string>
+    <string name="xml">xml</string>
+
+    <string name="arrays">arrays</string>
+    <string name="attrs">attrs</string>
+    <string name="bools">bools</string>
+    <string name="colors">colors</string>
+    <string name="strings">strings</string>
+    <string name="styles">styles</string>
+
+    <string name="SQLiteOpenHelper">SQLiteOpenHelper</string>
+    <string name="contentProvider">ContentProvider</string>
+
+    <string name="internalFile">InternalFile</string>
+    <string name="externalFile">ExternalFile</string>
+
+    <string name="layoutHierarchy">布局层次结构</string>
+    <string name="useAbstractLayout">抽象布局使用</string>
+    <string name="hierarchyViewer">HierarchyViewer</string>
+    <string name="lintTool">Lint工具</string>
+
+    <string name="oom">OOM</string>
+    <string name="image_handle">图片处理</string>
+    <string name="cache_machining">缓存机制</string>
+    <string name="anr">ANR</string>
+    <string name="analyze">分析</string>
+
+    <string name="why_produce">产生原因</string>
+    <string name="avoid_oom">避免OOM</string>
+
+    <string name="load_big_img">加载大图</string>
+    <string name="photo_wall">照片墙</string>
+    <string name="fall_wall">瀑布流</string>
+    <string name="multipoint_touch">多点触控</string>
+
+    <string name="ram_cache">内存缓存</string>
+    <string name="file_cache">文件缓存</string>
+    <string name="net_cache">网络缓存</string>
+
+    <string name="heap1">Heap</string>
+    <string name="adbShall">Adb Shall</string>
+    <string name="traceView">TraceView</string>
+    <string name="dalvikLog">Dalvik日志</string>
+    <string name="logcat1">Logcat</string>
+    <string name="mat">MAT</string>
+
+    <string name="communicationWithService">与服务端通信</string>
+    <string name="communicationWithModule">组件间通信</string>
+
+    <string name="contactPerson">联系人</string>
+    <string name="callHistory">通话记录</string>
+
+    <string name="accelerate">加速</string>
+    <string name="direction">方向</string>
+    <string name="gravity">重力</string>
+    <string name="lightRay">光线</string>
+    <string name="gyroscope">陀螺仪</string>
+    <string name="magneticField">磁场</string>
+    <string name="approach">接近</string>
+    <string name="temperature">温度</string>
+    <string name="pressure">压力</string>
+    <string name="linearAcceleration">线性加速度</string>
+    <string name="rotation">旋转</string>
+
+    <string name="simpleService">简单的Service</string>
+    <string name="serviceCommunicationToActivity">Service与Activity通信</string>
+    <string name="serviceDestroyWay">Service销毁方式</string>
+    <string name="serviceAndThread">Service与Thread</string>
+    <string name="foregroundService">前台Service</string>
+    <string name="remoteService">远程Service</string>
+    <string name="intentService">IntentService</string>
+
+    <string name="activity_lifecycle">生命周期</string>
+    <string name="activity_data_transmit">数据传递</string>
+    <string name="activity_launchMode">launchMode</string>
+
+    <string name="activity_lunchMode_standard">standard</string>
+    <string name="activity_lunchMode_singleTop">singleTop</string>
+    <string name="activity_lunchMode_singleTask">singleTask</string>
+    <string name="activity_lunchMode_singleInstance">singleInstance</string>
+    <string name="activity_lunchMode_transfer">过渡Activity</string>
+
+    <string name="static_register">静态注册</string>
+    <string name="dynamic_register">动态注册</string>
+    <string name="normal_broadcast">普通广播</string>
+    <string name="order_broadcast">有序广播</string>
+
+    <string name="contentProviderBaseInfo">基本信息</string>
+    <string name="getSystemContact">获取系统联系人</string>
+    <string name="customContentProvider">自定义ContentProvider</string>
+
+    <string name="fragment_introduce">Fragment介绍</string>
+    <string name="fragment_lifecycle">Fragment生命周期</string>
+    <string name="fragment_data_transmit">Fragment之间数据传递</string>
+    <string name="fragment_static_add">静态添加Fragment</string>
+    <string name="fragment_dynamic_add">动态添加Fragment</string>
+    <string name="manage_fragment_stack">管理Fragment回退栈</string>
+    <string name="fragment_communication_activity">Fragment与Activity通信</string>
+    <string name="fragment_change">处理运行时配置发生变化</string>
+    <string name="fragment_with_actionBar_menuItem">Fragment与MenuItem集成</string>
+    <string name="fragment_null">空Fragment的作用</string>
+    <string name="dialog_fragment">DialogFragment</string>
+
+    <string name="custom_view_setup">自定义View步骤</string>
+    <string name="flowery_validation_code">绚丽的验证码</string>
+    <string name="broken_view">玻璃破碎效果</string>
+    <string name="bezier_view">贝塞尔曲线</string>
+
+    <string name="extends_linearLayout">MyLinearLayout</string>
+    <string name="combination_view_test">组合View</string>
+
+    <string name="singleton">singleton</string>
+    <string name="proxy">proxy</string>
+    <string name="builder">builder</string>
+    <string name="command">command</string>
+    <string name="decorator">decorator</string>
+    <string name="facade">facade</string>
+    <string name="observer">observer</string>
+    <string name="template">template</string>
+    <string name="adapter">adapter</string>
+    <string name="flyweight">flyweight</string>
+    <string name="bridge">bridge</string>
+    <string name="composite">composite</string>
+    <string name="interpreter">interpreter</string>
+    <string name="mediator">mediator</string>
+    <string name="memento">memento</string>
+    <string name="state">state</string>
+    <string name="prototype">prototype</string>
+    <string name="strategy">strategy</string>
+    <string name="visitor">visitor</string>
+    <string name="simple_factory">simple-factory</string>
+    <string name="abstract_factory">abstract-factory</string>
+    <string name="factory_method">factory-method</string>
+    <string name="chain_of_responsibility">chain-of-responsibility</string>
+    <string name="iterator">iterator</string>
+    <string name="null_object">null-object</string>
+    <string name="object_pool">object-pool</string>
+    <string name="private_class_data">private-class-data</string>
+
+    <string name="border_top">border_top</string>
+    <string name="border_bottom">border_bottom</string>
+    <string name="image_url">image_url</string>
+
+    <string name="webView_info">1. Android显示网页需要使用WebView， 所以，定义一个WebView。\n\n2. 设置WebView控件可以执行JavaScript。\n\n3. 使用addJavascriptInterface方法声明允许JavaScript调用Android的方法。\n\n4. 使用@javascriptInterface注解一个方法，此方法就是web端需要调用的。\n\n5. 使用loadUrl去加载一个HTML页面(可以是本地也可以是网络的)。</string>
+    <string name="radio_button_info">RadioButton要与RadioGroup组合使用</string>
+    <string name="draw_layout_info">抽屉布局设置:\n android:layout_gravity="start(left)|end(right)" 抽屉菜单滑出方向</string>
+    <string name="grid_layout_info"> GridLayout属性:\n android:rowCount="" 行数\n android:columnCount="" 列数\n\n 子控件属性:\n android:layout_row=”0”表示从第一行开始\n android:layout_column=”0”表示从第一列开始\n android:layout_rowSpan="" 跨行数\n android:layout_columnSpan 跨列数\n</string>
+    <string name="table_layout_info">TableLayout属性:\n有多少个TableRow对象就有多少行\n列数等于最多子控件的TableRow的列数\n直接在TableLayout加控件，控件会占据一行\n android:shrinkColumns 设置可收缩的列\nandroid:stretchColumns 设置可伸展的列\n android:collapseColumns 设置要隐藏的列\n 内部控件属性:\n android:layout_column 该单元格在第几列显示\n android:layout_span 该单元格占据列数，默认为1</string>
+    <string name="spinner_info">Spinner属性:\n android:entries="@array/languages" 数据源\n android:spinnerMode="dialog" 显示方式\n android:prompt="" 标题\n</string>
+    <string name="rating_bar_info">RatingBar属性:\n android:isIndicator="" 是否是个指示器(不可交易)\n android:numStars="" 星星数量\n android:rating="" 默认评分\n android:stepSize="" 评分步长\n</string>
+    <string name="listView_info">ListView属性:\n android:divider="" 分割线颜色\n android:listSelector="" 点击背景色\n android:scrollbars="none" 有无滑动条\n</string>
+    <string name="gridView_info">GridView属性:\n android:numColumns="auto_fit" 列数设置为自动\n android:columnWidth="90dp" 每列的宽度\n android:horizontalSpacing="2dp" 列间距\n android:verticalSpacing="10dp"，行间距\n android:stretchMode="columnWidth" 缩放与列宽大小同步\n</string>
+    <string name="cardView_info">CardView属性:\n card_view:cardCornerRadius 用来设置圆角的半径\n card_view:cardElevation 用来设置阴影的半径\n card_view:cardBackgroundColor 背景色</string>
+    <string name="checkedTextView_info">CheckedTextView属性:\n 当ListView的setChoiceMode方法并设定为CHOICE_MODE_SINGLE或者 CHOICE_MODE_MULTIPLE，而非CHOICE_MODE_NONE时，使用此类是很有用的。</string>
+    <string name="adapterViewFlipper_info">AdapterViewFlipper属性:\n android:animateFirstView：设置显示该组件的第一个View时是否使用动画\n android:inAnimation：设置组件显示时使用的动画\n android:loopViews：设置循环到最后一个组件后是否自动“转头”到第一个组件\n android:outAnimation：设置组件隐藏时使用的动画\n android:autoStart：设置显示该组件是否是自动播放\n android:flipInterval：设置自动播放的时间间隔\n</string>
+    <string name="view_stub_info">ViewStub可以理解成一个非常轻量级的View，与其他的控件一样，有着自己的属性及特定的方法。当ViewStub使用在布局文件中时，当程序inflate布局文件时，ViewStub本身也会被解析，且占据内存控件，但是与其他控件相比，主要区别体现在以下几点：\n 1.当布局文件inflate时，ViewStub控件虽然也占据内存，但是相相比于其他控件，ViewStub所占内存很小；\n 2.布局文件inflate时，ViewStub主要是作为一个“占位符”的性质，放置于view tree中，且ViewStub本身是不可见的。ViewStub中有一个layout属性，指向ViewStub本身可能被替换掉的布局文件，在一定时机时，通过viewStub.inflate()完成此过程；\n 3.ViewStub本身是不可见的，对ViewStub setVisibility(..)与其他控件不一样，ViewStub的setVisibility 成View.VISIBLE或INVISIBLE如果是首次使用，都会自动inflate其指向的布局文件，并替换ViewStub本身，再次使用则是相当于对其指向的布局文件设置可见性。\n 4.对ViewStub的inflate操作只能进行一次，因为inflate的时候是将其指向的布局文件解析inflate并替换掉当前ViewStub本身（由此体现出了ViewStub“占位符”性质），一旦替换后，此时原来的布局文件中就没有ViewStub控件了，因此，如果多次对ViewStub进行infalte，会出现错误信息：ViewStub must have a non-null ViewGroup viewParent。</string>
+    <string name="texture_view_info">TextureView可以用来显示内容流。这样一个内容流例如可以视频或者OpenGL的场景。内容流可以来自本应用程序以及其他进程。TextureView必须在硬件加速开启的窗口中。与SurfaceView相比，TextureView不会创建一个单独的窗口，这使得它可以像一般的View一样执行一些变换操作，比如移动、动画等等，例如,你可以通过调用myView.setAlpha(0.5f)将TextureView设置成半透明。使用TextureView很简单：你需要使用的就是SurfaceTexture，SurfaceTexture可以用于呈现内容。</string>
+    <string name="simple_service_info">如果一个Service被某个Activity 调用 Context.startService 方法启动，那么不管是否有Activity使用bindService绑定或unbindService解除绑定到该Service，该Service都在后台运行。如果一个Service被startService 方法多次启动，那么onCreate方法只会调用一次，onStart将会被调用多次（对应调用startService的次数），并且系统只会创建Service的一个实例（因此你应该知道只需要一次stopService调用）。该Service将会一直在后台运行，而不管对应程序的Activity是否在运行，直到被调用stopService，或自身的stopSelf方法。当然如果系统资源不足，android系统也可能结束服务。</string>
+    <string name="sevToAct_communication">1,如果一个Service被某个Activity 调用 Context.bindService 方法绑定启动，不管调用 bindService 调用几次，onCreate方法都只会调用一次，同时onStart方法始终不会被调用。当连接建立之后，Service将会一直运行，除非调用Context.unbindService 断开连接或者之前调用bindService 的 Context 不存在了（如Activity被finish的时候），系统将会自动停止Service，对应onDestroy将被调用。\n\n 2,Service.onBind如果返回null，则调用 bindService 会启动 Service，但不会连接上 Service，因此 ServiceConnection.onServiceConnected 不会被调用，但你任然需要使用 unbindService 函数断开它，这样 Service 才会停止。</string>
+    <string name="destroy_service_way">1、你应当知道在调用 bindService 绑定到Service的时候，你就应当保证在某处调用 unbindService 解除绑定（尽管 Activity 被 finish 的时候绑定会自动解除，并且Service会自动停止；\n\n
+            2、你应当注意 使用 startService 启动服务之后，一定要使用 stopService停止服务，不管你是否使用bindService;\n\n
+            3、同时使用 startService 与 bindService 要注意到，Service 的终止，需要unbindService与stopService同时调用，才能终止 Service，不管 startService 与 bindService 的调用顺序，如果先调用 unbindService 此时服务不会自动终止，再调用 stopService 之后服务才会停止，如果先调用 stopService 此时服务也不会终止，而再调用 unbindService 或者 之前调用 bindService 的 Context 不存在了（如Activity 被 finish 的时候）之后服务才会自动停止；\n\n
+            4、当在旋转手机屏幕的时候，当手机屏幕在“横”“竖”变换时，此时如果你的 Activity 如果会自动旋转的话，旋转其实是 Activity 的重新创建，因此旋转之前的使用 bindService 建立的连接便会断开（Context 不存在了），对应服务的生命周期与上述相同。\n\n
+            5、在 sdk 2.0 及其以后的版本中，对应的 onStart 已经被否决变为了 onStartCommand，不过之前的 onStart 任然有效。这意味着，如果你开发的应用程序用的 sdk 为 2.0 及其以后的版本，那么你应当使用 onStartCommand 而不是 onStart。\n\n
+            6、当一个Service被终止（1、调用stopService；2、调用stopSelf；3、不再有绑定的连接（没有被启动））时，onDestroy方法将会被调用，在这里你应当做一些清除工作，如停止在Service中创建并运行的线程。\n</string>
+    <string name="service_with_thread">1). Thread：Thread 是程序执行的最小单元，它是分配CPU的基本单位。可以用 Thread 来执行一些异步的操作。\n\n
+            2). Service：Service 是android的一种机制，当它运行的时候如果是Local Service，那么对应的 Service 是运行在主进程的 main 线程上的。如：onCreate，onStart 这些函数在被系统调用的时候都是在主进程的 main 线程上运行的。如果是Remote Service，那么对应的 Service 则是运行在独立进程的 main 线程上。因此请不要把 Service 理解成线程，它跟线程半毛钱的关系都没有！\n\n
+            Service中不能执行耗时操作,否则可能导致ANR,所以应当在Service中开启线程执行耗时操作。\n\n
+            既然这样，那么我们为什么要用 Service 呢？其实这跟 android 的系统机制有关，我们先拿 Thread 来说。Thread 的运行是独立于 Activity 的，也就是说当一个 Activity 被 finish 之后，如果你没有主动停止 Thread 或者 Thread 里的 run 方法没有执行完毕的话，Thread 也会一直执行。因此这里会出现一个问题：当 Activity 被 finish 之后，你不再持有该 Thread 的引用。另一方面，你没有办法在不同的 Activity 中对同一 Thread 进行控制。\n\n
+            举个例子：如果你的 Thread 需要不停地隔一段时间就要连接服务器做某种同步的话，该 Thread 需要在 Activity 没有start的时候也在运行。这个时候当你 start 一个 Activity 就没有办法在该 Activity 里面控制之前创建的 Thread。因此你便需要创建并启动一个 Service ，在 Service 里面创建、运行并控制该 Thread，这样便解决了该问题（因为任何 Activity 都可以控制同一 Service，而系统也只会创建一个对应 Service 的实例）。\n\n
+            因此你可以把 Service 想象成一种消息服务，而你可以在任何有 Context 的地方调用 Context.startService、Context.stopService、Context.bindService，Context.unbindService，来控制它，你也可以在 Service 里注册 BroadcastReceiver，在其他地方通过发送 broadcast 来控制它，当然这些都是 Thread 做不到的。</string>
+    <string name="static_broadcast_info">静态注册是常驻型的，在Manifest.xml中配置,也就是说当应用关闭后，如果有广播信息传来，MyReceiver也会被系统调用而自动运行。</string>
+    <string name="dynamic_broadcast_info">动态注册方式与静态注册相反，不是常驻型的，也就是说广播会跟随程序的生命周期。我们在Activity或Service中注册了一个BroadcastReceiver，当这个Activity或Service被销毁时如果没有解除注册，系统会报一个异常，提示我们是否忘记解除注册了。所以，记得在特定的地方执行解除注册操作。</string>
+    <string name="normal_broadcast_info">普通广播对于多个接收者来说是完全异步的，通常每个接收者都无需等待即可以接收到广播，接收者相互之间不会有影响。对于这种广播，接收者无法终止广播，即无法阻止其他接收者的接收动作。广播的生命周期是10秒，不可做耗时操作，否则应用程序将ANR</string>
+    <string name="order_broadcast_info">有序广播比较特殊，它每次只发送到优先级较高的接收者那里，然后由优先级高的接受者再传播到优先级低的接收者那里，优先级高的接收者有能力终止这个广播。\n\n 在优先级高的Receiver中最后使用setResultExtras方法将一个Bundle对象设置为结果集对象，传递到下一个接收者那里，这样一来，优先级低的接收者可以用getResultExtras获取到最新的经过处理的信息集合。\n\n
+            使用sendOrderedBroadcast方法发送有序广播时，需要一个权限参数，如果为null则表示不要求接收者声明指定的权限，如果不为null，则表示接收者若要接收此广播，需声明指定权限。这样做是从安全角度考虑的，例如系统的短信就是有序广播的形式，一个应用可能是具有拦截垃圾短信的功能，当短信到来时它可以先接受到短信广播，必要时终止广播传递，这样的软件就必须声明接收短信的权限。\n\n
+            在优先级高的接收者onReceive()中执行abortBroadcast(),终止广播向下传递;</string>
+    <string name="intent_service_info">IntentService是一个基于Service的一个类，用来处理异步的请求。可以通过startService(Intent)来提交请求，该Service会在需要的时候创建，当完成所有的任务以后自己关闭，且请求是在工作线程处理的。</string>
+    <string name="content_provider_info">1）、ContentProvider为存储和获取数据提供了统一的接口。ContentProvide对数据进行封装，不用关心数据存储的细节。使用表的形式来组织数据。\n\n
+            2）、使用ContentProvider可以在不同的应用程序之间共享数据。 \n\n
+            3）、Android为常见的一些数据提供了默认的ContentProvider（包括音频、视频、图片和通讯录等）。 \n\n
+            4）、ContentResolver是通过ContentProvider来获取其他与应用程序共享的数据，那么ContentResolver与ContentProvider的接口应该差不多的,ContentProvider负责组织应用程序的数据；向其他应用程序提供数据；ContentResolver则负责获取ContentProvider提供的数据；修改/添加/删除更新数据等。\n\n
+            总的来说使用ContentProvider对外共享数据的好处是统一了数据的访问方式。\n\n</string>
+    <string name="uri_info">1）、每一个ContentProvider都拥有一个公共的URI，这个URI用于表示这个ContentProvider所提供的数据。\n\n
+            2）、Android所提供的ContentProvider都存放在android.provider包中。 将其分为A，B，C，D 4个部分：\n\n
+            A：标准前缀，用来说明一个Content Provider控制这些数据，无法改变的；"content://"。\n\n
+            B：URI 的标识，用于唯一标识这个ContentProvider，外部调用者可以根据这个标识来找到它。它定义了是哪个Content Provider提供这些数据。对于第三方应用程序，为了保证URI标识的唯一性，它必须是一个完整的、小写的类名。这个标识在 元素的 authorities属性中说明：一般是定义该ContentProvider的包.类的名称。\n\n
+            C：路径（path），通俗的讲就是你要操作的数据库中表的名字，或者你也可以自己定义，记得在使用的时候保持一致就可以了；"content://com.bing.provider.myprovider/tablename"。\n\n
+            D：如果URI中包含表示需要获取的记录的ID；则就返回该id对应的数据，如果没有ID，就表示返回全部； "content://com.bing.provider.myprovider/tablename/#" #表示数据id。\n\n</string>
+    <string name="fragment_introduce_info">Android运行在各种各样的设备中，有小屏幕的手机，超大屏的平板甚至电视。针对屏幕尺寸的差距，很多情况下，都是先针对手机开发一套App，然后拷贝一份，修改布局以适应平板神马超级大屏的。难道无法做到一个App可以同时适应手机和平板么，当然了，必须有啊。
+            Fragment的出现就是为了解决这样的问题。你可以把Fragment当成Activity的一个界面的一个组成部分，甚至Activity的界面可以完全有不同的Fragment组成，
+            更帅气的是Fragment拥有自己的生命周期和接收、处理用户的事件，这样就不必在Activity写一堆控件的事件处理的代码了。更为重要的是，你可以动态的添加、替换和移除某个Fragment。</string>
+    <string name="fragment_lifecycle_info1">Fragment必须是依存与Activity而存在的，因此Activity的生命周期会直接影响到Fragment的生命周期。</string>
+    <string name="fragment_lifecycle_info2">onAttach(Activity):当Fragment与Activity发生关联时调用。\n\n
+            onCreateView(LayoutInflater, ViewGroup,Bundle):创建该Fragment的视图。\n\n
+            onActivityCreated(Bundle):当Activity的onCreate方法返回时调用。\n\n
+            onDestroyView():与onCreateView想对应，当该Fragment的视图被移除时调用。\n\n
+            onDetach():与onAttach相对应，当Fragment与Activity关联被取消时调用。\n\n
+            注意：除了onCreateView，其他的所有方法如果你重写了，必须调用父类对于该方法的实现，</string>
+    <string name="fragment_communication_fragment_info">Fragment之间通信主要都是通过getActivity这个方法实现的。getActivity方法可以让Fragment获取到关联的Activity，然后再调用Activity的findViewById方法，就可以获取到和这个Activity关联的其它Fragment的视图了。</string>
+    <string name="fragment_communication_activity_info">a、如果你Activity中包含自己管理的Fragment的引用，可以通过引用直接访问所有的Fragment的public方法\n\n
+            b、如果Activity中未保存任何Fragment的引用，那么没关系，每个Fragment都有一个唯一的TAG或者ID,可以通过getFragmentManager.findFragmentByTag()或者findFragmentById()获得任何Fragment实例，然后进行操作。\n\n
+            c、在Fragment中可以通过getActivity得到当前绑定的Activity的实例，然后进行操作。\n\n
+            d、在Fragment中声明接口，宿主Activity实现该接口，在Fragment需要的时候进行回调。\n\n
+            注：如果在Fragment中需要Context，可以通过调用getActivity(),如果该Context需要在Activity被销毁后还存在，则使用getActivity().getApplicationContext()。</string>
+    <string name="fragment_change_info">运行时配置发生变化，最常见的就是屏幕发生旋转，每旋转一次屏幕，屏幕上就多了一个Fragment实例，因为当屏幕发生旋转，Activity发生重新启动，默认的Activity中的Fragment也会跟着Activity重新创建；这样造成当旋转的时候，本身存在的Fragment会重新启动，
+            然后当执行Activity的onCreate时，又会再次实例化一个新的Fragment，通过检查Activity的onCreate的参数Bundle savedInstanceState就可以判断，当前是否发生Activity的重新创建：
+            默认的savedInstanceState会存储一些数据，包括Fragment的实例，所以只有在savedInstanceState==null时，才进行创建Fragment实例。</string>
+    <string name="fragment_integration_info">Fragment可以添加自己的MenuItem到Activity的ActionBar或者可选菜单中。\n\n
+            a、在Fragment的onCreate中调用 setHasOptionsMenu(true);\n\n
+            b、然后在Fragment子类中实现onCreateOptionsMenu;\n\n
+            c、如果希望在Fragment中处理MenuItem的点击，也可以实现onOptionsItemSelected；当然了Activity也可以直接处理该MenuItem的点击事件。</string>
+    <string name="dialog_fragment_info">1、 概述\n
+            DialogFragment在android 3.0时被引入。是一种特殊的Fragment，用于在Activity的内容之上展示一个模态的对话框。典型的用于：展示警告框，输入框，确认框等等。
+            在DialogFragment产生之前，我们创建对话框：一般采用AlertDialog和Dialog。注：官方不推荐直接使用Dialog创建对话框。\n\n
+            2、 好处\n
+            使用DialogFragment来管理对话框，当旋转屏幕和按下后退键时可以更好的管理其声明周期，它和Fragment有着基本一致的声明周期。且DialogFragment也允许开发者把Dialog作为内嵌的组件进行重用，类似Fragment（可以在大屏幕和小屏幕显示出不同的效果）。\n\n
+            3、 用法\n
+            使用DialogFragment至少需要实现onCreateView或者onCreateDIalog方法。onCreateView即使用定义的xml布局文件展示Dialog。onCreateDialog即利用AlertDialog或者Dialog创建出Dialog。\n\n
+            4、 传递数据给Activity\n
+            从dialog传递数据给Activity，可以使用“fragment interface pattern”的方式，即：在DialogFragment中声明接口调用，Activity实现该接口。\n\n
+            5、屏幕旋转 \n
+            传统的new AlertDialog在屏幕旋转时，第一不会保存用户输入的值，第二还会报异常，因为Activity销毁前不允许对话框未关闭。而通过DialogFragment实现的对话框则可以完全不必考虑旋转的问题。
+    </string>
+    <string name="fragment_empty_info">没有布局文件Fragment实际上是为了保存，当Activity重启时，保存大量数据准备的。 \n\n
+            请参考博客：http://blog.csdn.net/lmj623565791/article/details/37936275</string>
+    <string name="animation_common_property_info">Notice:所谓通用就是说所有动画标签都适用于这些属性:\n android:duration \n设置动画播放的时间。\n\n android:startOffset \n设置动画的开始播放之前等待时间。\n\n android:interpolator \n设置动画的插值器。\n\n android:repeatCount \n动画播放的常用次数。\n\n android:repeatMode \n动画重播的模式，即从头到尾，从头到尾，还是从头到尾，在从尾到头。\n\n android:fillAfter \n true表示动画执行后，控件停留在动画结束的状态 \n\n android:fillBefore \n true表示动画执行后，控件回到执行动画之前的状态。\n\n
+            XML文件放在项目的res/anim/目录下。文件必须有一个唯一的根节点。这个根节点可以是：alpha, scale, translate, rotate, interpolator element, 或者是set。\n 默认情况下，所有的动画都是并行进行的，要想使得它们顺寻发生，你必须指定startOffset属性。</string>
+    <string name="animation_alpha_info">value从0(透明)到1(不透明)在android中透明主要用于对view淡入，淡出的效果控制主要有两个属性:\n\n android:fromAlpha \n  view在动画开始的透明度。\n\n android:toAlpha  \n view在动画结束的透明度。</string>
+    <string name="animation_scale_info">scale使view大点或者小点\n\n android:fromXScale \n android:fromYScale \n from?Scale 意思是开始轴线的缩放比例（默认 1.0）\n\n android:toXScale \n android:toYScale \n to?Scale 意思是结束轴线的缩放比例（默认 1.0）\n\n android:pivotX \n android:pivotX \n 旋转用的轴点坐标</string>
+    <string name="animation_translate_info" formatted="false">translate支持使用"%"，如"50%"获取的是这个view的百分之50，除此之外还有另外一种写法："50%p"意思是获取这个view的上一级view的百分之50 当然，指定特定值也是支持的"22.2"，不过为了兼容更多的android设备建议还是使用百分比的值。\n\n android:fromXDelta \n android:fromYDelta \n from?Delta 意思是开始的轴线 \n\n android:toXDelta \n android:toYDelta \n to?Delta 意思是结束的轴线。 </string>
+    <string name="animation_rotate_info" formatted="false">rotate使view旋转\n\n android:fromDegrees \n 开始旋转的角度。\n\n android:toDegrees \n 结束时的角度, + 表示正的 \n\n android:pivotX \n android:pivotY \n 用于设置旋转时的坐标 \n 1)、当值为50时，表示使用绝对位置定位。\n 2)、当值为50%时，表示使用相对于控件本身定位。\n 3)、当值为50%p时，表示相对于控件的父控件定位。</string>
+    <string name="animation_set_info">1、AnimationSet是Animation的子类。\n\n 2、一个AnimationSet包含了一系列的Animation。\n\n 3、针对AnimationSet设置一些Animation常见属性(如startOffset，duration等)，可以被包含在AnimationSet当中的Animation集成。</string>
+    <string name="animation_interpolator_info">1、AccelerateInterpolator:加速。\n\n 2、Decelerate:减速。\n\n 3、AccelerateDecelerateInterpolator:开始，和结尾都很慢，但是，中间加速。\n\n 4、AnticipateInterpolator:开始向后一点，然后，往前抛。\n\n 5、OvershootInterpolator:往前抛超过一点，然后返回来。\n\n 6、AnticipateOvershootInterpolator:开始向后一点，往前抛过点，然后返回来。\n\n 7、BounceInterpolator:结束的时候弹一下。\n\n 8、LinearInterpolator:匀速。\n\n 9、CycleInterpolator:动画循环播放特定的次数，速率改变沿着正玄曲线。</string>
+    <string name="animation_layout_controller_info">
+            LayoutAnimationController可以用于实现使多个控件按顺序一个一个显示出来。\n\n
+            1)、用于为一个layout里面的控件，或者是一个ViewGroup里面的控件设置统一的动画效果。\n\n 2)、每一个控件都有相同的动画效果。\n\n
+            3)、控件的动画效果可以在不同的时间显示出来。\n\n 4)、可以在XML中配置，也可以在代码中配置。\n\n\n 在XML中配置:\n\n android:delay \n 动画间隔时间，子类动画时间间隔。\n\n
+            android:animationOrder \n 动画执行的循序，normal：顺序，random：随机，reverse：反向显示 \n\n android:animation \n 引用的动画文件。</string>
+    <string name="property_animation_base_info_info">1、引入时间不同：View Animation是API Level 1就引入的。Property Animation是API Level 11引入的，即Android 3.0才开始有Property Animation相关的API。\n\n
+            2、所在包名不同：View Animation在包android.view.animation中。而Property Animation API在包 android.animation中。 \n\n
+            3、动画类的命名不同：View Animation中动画类取名都叫XXXXAnimation,而在Property Animator中动画类的取名则叫XXXXAnimator。\n\n
+            引入Property Animator(属性动画)的原因:\n
+               1）、Property Animator能实现补间动画无法实现的功能。\n
+               2）、View Animation仅能对指定的控件做动画，而Property Animator是通过改变控件某一属性值来做动画的。\n
+               3）、补间动画虽能对控件做动画，但并没有改变控件内部的属性值。而Property Animator则是恰恰相反，Property Animator是通过改变控件内部的属性值来达到动画效果的。\n </string>
+    <string name="value_animator_info1"> public static ValueAnimator ofInt(int... values)\n public static ValueAnimator ofFloat(float... values) \n 他们的参数类型都是可变参数长参数，所以我们可以传入任何数量的值；传进去的值列表，就表示动画时的变化范围。\n\n
+            ValueAnimator setDuration(long duration) \n  设置动画时长，单位是毫秒。\n\n
+            Object getAnimatedValue() \n 获取ValueAnimator在运动时，当前运动点的值，通过getAnimatedValue()值类型与初始设置动画时的值类型相同 。\n\n
+            void start() \n 开始动画。\n\n
+            void setRepeatCount(int value) \n 设置循环次数,设置为INFINITE表示无限循环。\n\n
+            void setRepeatMode(int value) \n 设置循环模式,value取值有RESTART，REVERSE。\n\n
+            void cancel() \n 取消动画。\n\n
+            public void setStartDelay(long startDelay) \n 延时多久时间开始，单位是毫秒。\n\n
+            public ValueAnimator clone() \n 完全克隆一个ValueAnimator实例，包括它所有的设置以及所有对监听器代码的处理。\n\n
+            两个监听器：\n AnimatorUpdateListener \n AnimatorListener \n
+            移除监听器：\n void removeAllUpdateListeners()\n removeAllListeners() \n</string>
+    <string name="value_animator_info2">加速器：\n\n 系统提供的Interpolator实现了Interpolator接口；而Interpolator接口则直接继承自TimeInterpolator，而且并没有添加任何其它的方法。
+            TimeInterpolator里面只有一个函数float getInterpolation(float input);\n\n 参数input:input参数是一个float类型，它取值范围是0到1，表示当前动画的进度，取0时表示动画刚开始，取1时表示动画结束，取0.5时表示动画中间的位置，其它类推。\n
+            返回值：表示当前实际想要显示的进度。取值可以超过1也可以小于0，超过1表示已经超过目标值，小于0表示小于开始位置。\n\n\n
+            转换器：\n\n Evaluator其实就是一个转换器，就是将从加速器返回的数字进度转成对应的数字值。\n\n\n
+            结论：\n\n 我们可以通过重写加速器改变数值进度来改变数值位置，也可以通过改变Evaluator中进度所对应的数值来改变数值位置。</string>
+    <string name="value_animator_info3">ofObject()概述:\n\n public static ValueAnimator ofObject(TypeEvaluator evaluator, Object... values)\n\n
+            它有两个参数，第一个是自定义的Evaluator，第二个是可变长参数，Object类型的。\n Evaluator的作用是根据当前动画的显示进度，计算出当前进度下对应的值。那既然Object对象是我们自定的，那必然从进度到值的转换过程也必须由我们来做。\n\n 在自定义TypeEvaluator中实现:public T evaluate(float fraction, T startValue, T endValue)方法。该返回类型为ofObject()第二个参数类型。</string>
+    <string name="object_animator_base_info_info">public static ObjectAnimator ofFloat(Object target, String propertyName, float... values) \n\n
+            第一个参数用于指定这个动画要操作的是哪个控件。\n
+            第二个参数用于指定这个动画要操作这个控件的哪个属性。\n
+            第三个参数是可变长参数，这个就跟ValueAnimator中的可变长参数的意义一样了，就是指这个属性值是从哪变到哪。\n\n
+            ObjectAnimator做动画，并不是根据控件xml中的属性来改变的，而是通过指定属性所对应的set方法来改变的。\n\n
+            1、要使用ObjectAnimator来构造对画，要操作的控件中，必须存在对应的属性的set方法。 \n
+            2、setter方法的命名必须以骆驼拼写法命名，即set后每个单词首字母大写，其余字母小写，即类似于setPropertyName所对应的属性为propertyName。\n</string>
+    <string name="object_animator_principle_info">1)、拼接set函数的方法：\n 上面我们也说了是首先是强制将属性的第一个字母大写，然后与set拼接，就是对应的set函数的名字。注意，只是强制将属性的第一个字母大写，后面的部分是保持不变的。\n\n
+            2)、如何确定函数的参数类型：\n 动画过程中产生的数字值与构造时传入的值类型是一样的。由于ObjectAnimator与ValueAnimator在插值器和Evaluator这两步是完全一样的，而当前动画数值的产生是在Evaluator这一步产生的，所以ObjectAnimator的动画中产生的数值类型也是与构造时的类型一样的。\n\n
+            3)、调用set函数以后怎么办：\n ObjectAnimator只负责把动画过程中的数值传到对应属性的set函数中就结束了，set函数就相当我们在ValueAnimator中添加的监听的作用，set函数中的对控件的操作还是需要我们自己来写的。\n\n
+            4)、set函数调用频率是多少：\n 由于我们知道动画在进行时，每隔十几毫秒会刷新一次，所以我们的set函数也会每隔十几毫秒会被调用一次。\n\n\n
+            ObjectAnimator只负责把当前运动动画的数值传给set函数。至于set函数里面怎么来做，是我们自己的事了。 </string>
+    <string name="object_animator_define_info">ObjectAnimator需要指定操作的控件对象，在开始动画时，到控件类中去寻找设置属性所对应的set函数，然后把动画中间值做为参数传给这个set函数并执行它。所以，控件类中必须所要设置属性所要对应的set函数。\n\n
+            1)、这个set函数所对应的属性应该是pointRadius或者PointRadius。第一个字母大小写无所谓，后面的字母必须保持与set函数完全一致。\n
+            2)、在setPointRadius中，先将当前动画传过来的值保存到mPoint中，做为当前圆形的半径。然后强制界面刷新。\n\n
+            当且仅当动画的只有一个过渡值时，系统才会调用对应属性的get函数来得到动画的初始值。</string>
+    <string name="object_animator_method">因为ObjectAnimator的函数都是从ValueAnimator中继承而来的，所以用法和效果与ValueAnimator是完全一样的。\n\n 请看ValueAnimator用法。</string>
+    <string name="property_value_holder_info_info">ValueAnimator和ObjectAnimator除了通过\n ofInt(),\n ofFloat(),\n ofObject()\n创建实例外，还都有一个\n ofPropertyValuesHolder()\n 方法来创建实例。\n\n
+            PropertyValuesHolder这个类的意义就是，它其中保存了动画过程中所需要操作的属性和对应的值。我们通过ofFloat(Object target, String propertyName, float… values)构造的动画，ofFloat()的内部实现其实就是将传进来的参数封装成PropertyValuesHolder实例来保存动画状态。
+            在封装成PropertyValuesHolder实例以后，后期的各种操作也是以PropertyValuesHolder为主的。\n\n
+            创建实例的四种方法:\n\n
+            public static PropertyValuesHolder ofFloat(String propertyName, float... values) \n\n
+            public static PropertyValuesHolder ofInt(String propertyName, int... values)   \n\n
+            public static PropertyValuesHolder ofObject(String propertyName, TypeEvaluator evaluator,Object... values)  \n\n
+            public static PropertyValuesHolder ofKeyframe(String propertyName, Keyframe... values) </string>
+    <string name="property_value_holder_method1_info">public static PropertyValuesHolder ofInt(String propertyName, int... values) \n\n
+            propertyName：\n 表示ObjectAnimator需要操作的属性名。即ObjectAnimator需要通过反射查找对应属性的setProperty()函数的那个property。\n\n
+            values：\n 属性所对应的参数，同样是可变长参数，可以指定多个，还记得我们在ObjectAnimator中讲过，如果只指定了一个，那么ObjectAnimator会通过查找getProperty()方法来获得初始值。\n\n\n
+            public static ObjectAnimator ofPropertyValuesHolder(Object target,PropertyValuesHolder... values) \n\n
+            target：\n 指需要执行动画的控件。\n\n
+            values：\n 是一个可变长参数，可以传进去多个PropertyValuesHolder实例，由于每个PropertyValuesHolder实例都会针对一个属性做动画，所以如果传进去多个PropertyValuesHolder实例，将会对控件的多个属性同时做动画操作。</string>
+    <string name="property_value_holder_method2_info">public static PropertyValuesHolder ofObject(String propertyName, TypeEvaluator evaluator,Object... values)\n\n
+            propertyName:\n ObjectAnimator动画操作的属性名。\n\n
+            evaluator:\n Evaluator实例，Evaluator是将当前动画进度计算出当前值的类，可以使用系统自带的IntEvaluator、FloatEvaluator也可以自定义。\n\n
+            values:\n 可变长参数，表示操作动画属性的值。\n\n\n
+            public static ObjectAnimator ofPropertyValuesHolder(Object target,PropertyValuesHolder... values) \n\n
+            target：\n 指需要执行动画的控件。\n\n
+            values：\n 是一个可变长参数，可以传进去多个PropertyValuesHolder实例，由于每个PropertyValuesHolder实例都会针对一个属性做动画，所以如果传进去多个PropertyValuesHolder实例，将会对控件的多个属性同时做动画操作。</string>
+    <string name="keyframe_base_info_info">如果要控制动画速率的变化，我们可以通过自定义插值器，也可以通过自定义Evaluator来实现。不过这两种方法实现起来比较困难，所以Google定义了一个KeyFrame的类，KeyFrame直译过来就是关键帧。\n\n
+            一个关键帧必须包含两个原素，第一时间点，第二位置。即这个关键帧是表示的是某个物体在哪个时间点应该在哪个位置上。\n\n\n
+            public static PropertyValuesHolder ofKeyframe(String propertyName, Keyframe... values)\n\n
+            propertyName：\n 动画所要操作的属性名。\n\n
+            values：\n Keyframe的列表，PropertyValuesHolder会根据每个Keyframe的设定，定时将指定的值输出给动画。</string>
+    <string name="keyframe_method1_info">public static Keyframe ofFloat(float fraction, float value) \n\n
+            fraction：\n表示当前的显示进度，即从加速器中getInterpolation()函数的返回值。\n\n
+            value：\n表示当前应该在的位置。 \n\n\n
+            第一步：生成Keyframe对象。\n
+            第二步：利用PropertyValuesHolder.ofKeyframe()生成PropertyValuesHolder对象。\n
+            第三步：ObjectAnimator.ofPropertyValuesHolder()生成对应的Animator.\n</string>
+    <string name="keyframe_method2_info">凡是使用ofObject来做动画的时候，PropertyValuesHolder.setEvaluator显示设置Evaluator，因为系统根本是无法知道，你动画的中间值Object真正是什么类型的。</string>
+    <string name="keyframe_interpolator_info">public void setInterpolator(TimeInterpolator interpolator)\n
+            设置Keyframe动作期间所对应的插值器。\n\n
+            如果给这个Keyframe设置上插值器，那么这个插值器就是从上一个Keyframe开始到当前设置插值器的Keyframe时，这个过程值的计算是利用这个插值器的。\n
+            给第一帧设置插值器是无效的。\n\n
+            对于Keyframe而言，fraction和value这两个参数是必须有的，所以无论用哪种方式实例化Keyframe都必须保证这两个值必须被初始化。</string>
+    <string name="keyframe_other_info_info">如果去掉第0帧，将以第一个关键帧为起始位置。\n 如果去掉结束帧，将以最后一个关键帧为结束位置。\n 使用Keyframe来构建动画，至少要有两个或两个以上帧。\n\n
+            借助Keyframe，不需要使用AnimatorSet，也能实现多个动画同时播放。这也是ObjectAnimator中唯一一个能实现多动画同时播放的方法，其它的\n ObjectAnimator.ofInt(),\n ObjectAnimator.ofFloat(),\n ObjectAnimator.ofObject()\n都只能实现针对一个属性动画的操作！</string>
+    <string name="animator_set_play_order_info">playTogether和playSequentially在开始动画时，只是把每个控件的动画激活，至于每个控件自身的动画是否具有延时、是否无限循环，只与控件自身的动画设定有关，与playTogether、playSequentially无关。playTogether和playSequentially只负责到点激活动画。\n\n
+            第一：playTogether和playSequentially在激活动画后，控件的动画情况与它们无关，他们只负责定时激活控件动画。\n\n
+            第二：playSequentially只有上一个控件做完动画以后，才会激活下一个控件的动画，如果上一控件的动画是无限循环，那下一个控件就别再指望能做动画了。\n\n
+            AnimatorSet中没有设置循环次数的函数，所以要实现无线循环动画，要为每个动画单独设置setRepeatCount(ValueAnimator.INFINITE)。</string>
+    <string name="animator_set_builder_info">public AnimatorSet.Builder play(Animator anim)\n 调用AnimatorSet中的play方法是获取AnimatorSet.Builder对象的唯一途径。\n\n
+            public Builder play(Animator anim)\n 表示要播放哪个动画。\n\n
+            public Builder with(Animator anim)\n  和前面动画一起执行。\n\n
+            public Builder before(Animator anim)\n 执行前面动画前执行动画。\n\n
+            public Builder after(Animator anim)\n 执行前面的动画后执行该动画。\n\n
+            public Builder after(long delay)\n 延迟n毫秒之后执行动画。\n\n\n
+            使用方式:\n 1、使用builder对象逐个添加动画。\n 2、串行方式。</string>
+    <string name="animator_set_listener_info">public void addListener(AnimatorListener listener)\n\n
+            因为ValueAnimator和AnimatorSet都派生自Animator类，而AnimatorListener是Animator类中的函数。所以与ValueAnimator的监听器一样。\n\n
+            1、AnimatorSet的监听函数也只是用来监听AnimatorSet的状态的，与其中的动画无关；\n\n
+            2、AnimatorSet中没有设置循环的函数，所以AnimatorSet监听器中永远无法运行到onAnimationRepeat()中。</string>
+    <string name="animator_set_set_info">在AnimatorSet中还有几个函数：\n\n
+            public AnimatorSet setDuration(long duration)\n 设置单次动画时长。\n\n
+            public void setInterpolator(TimeInterpolator interpolator)\n 设置加速器\n\n
+            public void setTarget(Object target)\n 设置ObjectAnimator动画目标控件。\n\n\n
+            在AnimatorSet中设置以后，会覆盖单个ObjectAnimator中的设置；即如果AnimatorSet中没有设置，那么就以ObjectAnimator中的设置为准。如果AnimatorSet中设置以后，ObjectAnimator中的设置就会无效。\n\n
+            AnimatorSet.setTarget()的作用就是将动画的目标统一设置为当前控件，AnimatorSet中的所有动画都将作用在所设置的target控件上。</string>
+    <string name="animator_set_delay_info">public void setStartDelay(long startDelay) \n设置延时开始动画时长\n\n
+            AnimatorSet的延时是仅针对性的延长AnimatorSet激活时间的，对单个动画的延时设置没有影响。\n\n
+            AnimatorSet真正激活延时 = AnimatorSet.startDelay+第一个动画.startDelay。\n\n
+            在AnimatorSet激活之后，第一个动画绝对是会开始运行的，后面的动画则根据自己是否延时自行处理。\n\n</string>
+    <string name="animator_set_xml_common_info">在xml中对应animator总共有三个标签，分别是:\n\n
+            animator:\n 对应ValueAnimator\n\n
+            objectAnimator:\n 对应ObjectAnimator\n\n
+            set:\n 对应AnimatorSet \n\n\n
+            下面是完整的animator所有的字段及取值范围：\n\n
+            android:duration="int"\n 每次动画播放的时长。\n\n
+            android:valueFrom="float | int | color" \n 初始动化值；取值范围为float,int和color，如果取值为float对应的值样式应该为89.0，取值为Int时，对应的值样式为：89;当取值为clolor时，对应的值样式为 #333333。\n\n
+            android:valueTo="float | int | color" \n 动画结束值。\n\n
+            android:startOffset="int" \n 动画激活延时；对应代码中的startDelay(long delay)函数。\n\n
+            android:repeatCount="int" \n 动画重复次数。\n\n
+            android:repeatMode=["repeat" | "reverse"]\n 动画重复模式，取值为repeat和reverse；repeat表示正序重播，reverse表示倒序重播。\n\n
+            android:valueType=["intType" | "floatType"]\n 表示参数值类型，取值为intType和floatType；与android:valueFrom、android:valueTo相对应。如果android:valueFrom、android:valueTo的值设置为color类型的值，那么不需要设置这个参数。\n\n
+            android:interpolator=["@android:interpolator/XXX"]\n 设置加速器。</string>
+    <string name="animator_set_xml_animator_info">animator是ValueAnimator对应的标签，所以在加载后，将其强转为ValueAnimator；然后对其添加控件监听。在监听时，动态改变当前TextView的位置。\n\n
+            加载XML文件的Animator：\n ValueAnimator valueAnimator = (ValueAnimator) AnimatorInflater.loadAnimator(MyActivity.this,R.animator.animator)\n valueAnimator.start()。</string>
+    <string name="animator_set_xml_object_animator_info">objectAnimator是ObjectAnimator对应的标签。\n\n android:propertyName="string"\n 对应属性名，即ObjectAnimator所需要操作的属性名。\n\n
+            ObjectAnimator animator = (ObjectAnimator) AnimatorInflater.loadAnimator(MyActivity.this,R.animator.object_animator);\n
+            animator.setTarget(TextView);\n animator.start();\n\n
+            使用loadAnimator加载对应的xml动画。然后使用animator.setTarget(mTv1);绑定上动画目标。因为在xml中，没有设置目标的参数，所以我们必须通过代码将目标控件与动画绑定。</string>
+    <string name="animator_set_xml_set_animator_info">set是AnimatorSet所对应的标签。它只有一个属性：\n\n
+            android:ordering=["together" | "sequentially"]\n 表示动画开始顺序。together表示同时开始动画，sequentially表示逐个开始动画。</string>
+    <string name="view_coordinate_info_info">在Android中，将屏幕的左上角的顶点作为Android坐标系的原点，这个原点向右是X轴正方向，原点向下是Y轴正方向。\n\n
+            View获取自身宽高:\n\n getHeight()\n 获取View自身高度。\n getWidth()\n 获取View自身宽度。\n\n\n
+            View自身坐标:\n\n getTop()\n 获取View自身顶边到其父布局顶边的距离。\n getLeft()\n 获取View自身左边到其父布局左边的距离。\n getRight()\n 获取View自身右边到其父布局左边的距离。\ getBottom()\n 获取View自身底边到其父布局顶边的距离。\n\n\n
+            MotionEvent提供的方法:\n\n getX()\n 获取点击事件距离控件左边的距离，即视图坐标。\n getY()\n 获取点击事件距离控件顶边的距离，即视图坐标。\n getRawX()\n 获取点击事件距离整个屏幕左边距离，即绝对坐标。\n getRawY()\n 获取点击事件距离整个屏幕顶边的的距离，即绝对坐标。</string>
+    <string name="custom_view_setup_info">1、写一个类继承View类；\n2、重写View的构造方法；\n3、测量View的大小，也就是重写onMeasure()方法；\n4、重写onDraw()方法。\n\n注：new对象时，调用一个参数的构造方法。未使用自定义属性时，调用两个参数的构造方法，使用自定义属性时调用三个参数的构造方法。\n\n
+            1. View的测量：\n\nAndroid系统给我们提供了MeasureSpec类来帮助我们测量View，Measure是一个32位的int值。高2位为测量的模式，低30位为测量的大小。测量的模式可以分为以下三种：\n\nEXACTLY 精确值模式。例如：android:layout_width="100dp|match_parent"。\n\n
+            AT_MOST 最大值模式。例如：android:layout_width="wrap_content"控件的大小一般随着控件的子空间或内容的变化而变化，此时控件的尺寸只要不超过父控件允许的最大尺寸即可。\n\nUNSPECIFIED 不指定其大小的测量模式。View想多大就多大，通常在绘制自定义View时使用。\n\n </string>
+    <string name="resource_anim_info">用于定义动画对象。存放定义了补间动画（tween animation）或逐帧动画（frame by frame animation）的XML文件。</string>
+    <string name="resource_animator_info">存放定义了property animations（android 3.0新定义的动画框架）的XML文件。</string>
+    <string name="resource_color_info">存放定义了颜色状态列表资源(Color State List Resource)的XML文件。</string>
+    <string name="resource_drawable_info">保存图片资源，可以使用Resources.getDrawable(id)可以获得资源类型。\n\n 推荐的格式:.png,.9.png \n 可接受的格式: .jpg,.jpeg \n 不鼓励的格式:.gif \n\n\n
+            定义selector文件。\n\n 定义shape文件。\n shape的形状，默认为矩形，可以设置为矩形（rectangle）、椭圆形(oval)、线性形状(line)、环形(ring)\n\n solid：填充\n gradient：渐变\n stroke：描边\n corners：圆角\n padding：间隔\n</string>
+    <string name="resource_interpolator_info">interpolator</string>
+    <string name="resource_layout_info">存放所有的布局文件，主要是用于排列不同的显示组件，在Android程序中要读取此配置。</string>
+    <string name="resource_menu_info">menu根元素没有属性，它包含item和group子元素。\n group表示一个菜单组，相同的菜单组可以一起设置其属性，例如visible、enabled和checkable等。\n\n group元素的属性说明如下:\n\n
+            id：唯一标示该菜单组的引用id。\n menuCategory：对菜单进行分类，定义菜单的优先级，有效值为container、system、secondary和alternative。\n orderInCategory：一个分类排序整数。\n
+            checkableBehavior：选择行为，单选、多选还是其他。有效值为none、all和single。\n visible：是否可见，true或者false。\n enabled：是否可用，true或者false。\n\n
+            item表示菜单项，包含在menu或group中的有效属性。\n item元素的属性说明如下:\n\n id：唯一标示菜单的ID引用。\n menuCategory：菜单分类。\n orderInCategory：分类排序。\n title：菜单标题字符串。\n
+            titleCondensed：浓缩标题，适合标题太长的时候使用。\n icon：菜单的图标。\n alphabeticShortcut：字符快捷键。\n numericShortcut：数字快捷键。\n checkable：是否可选。\n checked：是否已经被选。\n visible：是否可见。\n enabled：是否可用。</string>
+    <string name="resource_raw_info">自定义的一些原生文件所在目录，像音乐、视频等文件格式。存放直接复制到设备中的任意文件。它们无需编译，添加到你的应用程序编译产生的压缩文件中。要使用这些资源，可以调用Resources.getRawResource(id)方法可以获得这些资源。</string>
+    <string name="resource_values_info">存放一些资源文件的信息，用于读取文本资源，在本文件夹之中有一些约定的文件名称：\n\n arrays.xml：定义数组数据。\n dimens.xml：定义尺度。\n strings.xml：定义字符串。\n
+            colors.xml：定义表示颜色的数据。\n styles.xml：定义显示的样式文件。\n themes.xml: 定义主题的文件。\n attrs.xml：在自定义一个控件的时候，如果定义一些新的属性的时候，会用到这个文件来设置。\n ids.xml：为应用的相关资源提供唯一的资源id。\n\n\n
+            字符获取方法:\n getResources().getString(id)\n getResources().getText(id)。\n\n字符数组获取方法:\n getResources().getStringArray(id)。\n\n颜色值获取方法:\n getResources().getColor(id)。\n\n尺寸值获取方法:\n getResources().getDimension(id);\n\n
+            style是一个包含一种或者多种格式化属性的集合，我们可以将其视为一个单位用在布局XML单个元素当中。\n 如:style="@style/textView_style_title"。\n\n
+            theme是一个包含一种或者多种格式化属性的集合，我们可以将其视为一个单位用在应用中所有的Activity当中或者应用中的某个Activity当中，主题是不能应用在某一个单独的View里.风格可以自己定义也可以使用程序自带的或是继承已有的风格。\n 如:activity android:theme="@style/CustomTheme"。</string>
+    <string name="resource_xml_info">XML文件存储在/res/xml目录中，这里可以用来存储xml格式的文件，并且和其他资源文件一样，这里的资源是会被编译成二进制格式放到最终的安装包里的，我们也可以通过R类来访问这里的文件，并且解析里面的内容，在程序运行时可以使用Resources.getXML()方法获取。</string>
+    <string name="assets_info">assets文件夹里面的文件都是保持原始的文件格式，需要用AssetManager以字节流的形式读取文件。\n\n
+            1. 先在Activity里面调用getAssets() 来获取AssetManager引用。\n\n
+            2. 再用AssetManager的open(String fileName, int accessMode) 方法则指定读取的文件以及访问模式就能得到输入流InputStream。\n\n
+            3. 然后就是用已经open file 的inputStream读取文件，读取完成后记得inputStream.close() 。\n\n
+            4.调用AssetManager.close() 关闭AssetManager。\n\n
+            需要注意的是，来自Resources和Assets 中的文件只可以读取而不能进行写的操作。\n\n
+            可以在Assets文件夹下任意的建立子目录，而/res目录中的资源文件是不能自行建立子目录的。</string>
+    <string name="activity_lunch_mode_standard_info">standard是activity的launchMode的默认值，Activity不包含android:launchMode或者显示设置为standard的Activity就会使用这种模式。\n\n一旦设置成这个值，每当有一次Intent请求，就会创建一个新的Activity实例。\n\n
+            5.0之前，这种Activity新生成的实例会放入发送Intent的Task的栈的顶部。\n\n5.0之后，对于同一应用内部Activity启动和5.0之前表现一样，跨应用之间启动Activity，会创建一个新的Task，新生成的Activity就会放入刚创建的Task中。</string>
+    <string name="activity_lunch_mode_single_top_info">singleTop其实和standard几乎一样，使用singleTop的Activity也可以创建很多个实例。唯一不同的就是，如果调用的目标Activity已经位于调用者的Task的栈顶，则不创建新实例，而是使用当前的这个Activity实例，并调用这个实例的onNewIntent()方法。\n\n
+            在singleTop这种模式下，我们需要处理应用这个模式的Activity的onCreate()和onNewIntent()两个方法，确保逻辑正常。\n\n
+            1、只有在调用者和目标Activity在同一Task中，并且目标Activity位于栈顶，才使用现有目标Activity实例，否则创建新的目标Activity实例。\n
+            2、如果是外部程序启动singleTop的Activity，在Android 5.0之前新创建的Activity会位于调用者的Task中，5.0及以后会放入新的Task中。</string>
+    <string name="activity_lunch_mode_single_task_info">使用singleTask启动模式的Activity在系统中只会存在一个实例。如果这个实例已经存在，intent就会通过onNewIntent传递到这个Activity。否则新的Activity实例被创建。</string>
+    <string name="activity_lunch_mode_single_instance_info">singleInstance模式和singleTask差不多，因为他们在系统中都只有一份实例。唯一不同的就是存放singleInstance的Activity实例的Task只能存放一个该模式的Activity实例。如果从singleInstance的Activity实例启动另一个Activity，那么这个Activity实例会放入其他的Task中。同理，如果singleInstance的Activity被别的Activity启动，它也会放入不同于调用者的Task中。\n\n
+            虽然是两个task，但是在系统的任务管理器中，却始终显示一个，即位于顶部的Task中。\n\n另外当我们从任务管理器进入这个应用，是无法通过返回键会退到Task1的,解决办法：\n为launchMode为singleInstance的Activity加入android:taskAffinity=""属性即可。\n\n这种模式的使用情况比较罕见，在Launcher中可能使用。或者你确定你需要使Activity只有一个实例。建议谨慎使用。</string>
+    <string name="handler_info">Handler处理者，是Message的主要处理者，负责Message的发送，Message内容的执行处理。后台线程就是通过传进来的Handler对象引用来sendMessage(Message)。而使用Handler，需要implement该类的handleMessage(Message)方法，它是处理这些Message的操作内容，例如Update UI。通常需要子类化Handler来实现handleMessage方法。</string>
+    <string name="looper_info">Looper是每条线程里的Message Queue的管家。Android没有Global的Message Queue，而Android会自动替主线程(UI线程)建立Message Queue，但在子线程里并没有建立Message Queue。所以调用Looper.getMainLooper()得到的主线程的Looper不为NULL，但调用Looper.myLooper()得到当前线程的Looper就有可能为NULL。</string>
+    <string name="message_info">Message消息，理解为线程间交流的信息，处理数据后台线程需要更新UI，则发送Message内含一些数据给UI线程。</string>
+    <string name="message_queue_info_info">Message Queue消息队列，用来存放通过Handler发布的消息，按照先进先出执行。
+            每个message queue都会有一个对应的Handler。Handler会向message queue通过两种方法发送消息：sendMessage或post。这两种消息都会插在message queue队尾并按先进先出执行。但通过这两种方法发送的消息执行的方式略有不同：通过sendMessage发送的是一个message对象,会被Handler的handleMessage()函数处理；而通过post方法发送的是一个runnable对象，则会自己执行。</string>
+    <string name="handler_summary_info">在单线程模型下，Android设计了一个Message Queue(消息队列)， 线程间可以通过该Message Queue并结合Handler和Looper组件进行信息交换。\n\n
+            1、首先Looper.prepare()在本线程中保存一个Looper实例，然后该实例中保存一个MessageQueue对象；因为Looper.prepare()在一个线程中只能调用一次，所以MessageQueue在一个线程中只会存在一个。\n\n
+            2、Looper.loop()会让当前线程进入一个无限循环，不端从MessageQueue的实例中读取消息，然后回调msg.target.dispatchMessage(msg)方法。\n\n
+            3、Handler的构造方法，会首先得到当前线程中保存的Looper实例，进而与Looper实例中的MessageQueue想关联。\n\n
+            4、Handler的sendMessage方法，会给msg的target赋值为handler自身，然后加入MessageQueue中。\n\n
+            5、在构造Handler实例时，我们会重写handleMessage方法，也就是msg.target.dispatchMessage(msg)最终调用的方法。\n\n
+            在Activity中，我们并没有显示的调用Looper.prepare()和Looper.loop()方法，因为在Activity的启动代码中，已经在当前UI线程调用了Looper.prepare()和Looper.loop()方法。</string>
+    <string name="design_singleton_info">确保某一个类只有一个实例，而且自行实例化并向整个系统提供这个实例。\n\n\n
+            优点:\n\n1、由于单例模式在内存中只有一个实例，减少了内存开支，特别是一个对象需要频繁地创建、销毁时，而且创建或销毁时性能又无法优化，单例模式的优势就非常明显。\n\n
+            2、由于单例模式只生成一个实例，所以减少了系统的性能开销，当一个对象的产生需要比较多的资源时，如读取配置、产生其他依赖对象时，则可以通过在应用启动时直接产生一个单例对象，然后用永久驻留内存的方式来解决。\n\n
+            3、单例模式可以避免对资源的多重占用，例如一个写文件动作，由于只有一个实例存在内存中，避免对同一个资源文件的同时写操作。\n\n
+            4、单例模式可以在系统设置全局的访问点，优化和共享资源访问，例如可以设计一个单例类，负责所有数据表的映射处理。\n\n\n
+            缺点:\n\n1、单例模式一般没有接口，扩展很困难，若要扩展，除了修改代码基本上没有第二种途径可以实现。</string>
+    <string name="design_proxy_info">代理模式是对象的结构模式。代理模式给某一个对象提供一个代理对象，并由代理对象控制对原对象的引用。\n\n\n
+            抽象对象角色：声明了目标对象和代理对象的共同接口，这样一来在任何可以使用目标对象的地方都可以使用代理对象。\n\n目标对象角色：定义了代理对象所代表的目标对象。\n\n
+            代理对象角色：代理对象内部含有目标对象的引用，从而可以在任何时候操作目标对象；代理对象提供一个与目标对象相同的接口，以便可以在任何时候替代目标对象。代理对象通常在客户端调用传递给目标对象之前或之后，执行某个操作，而不是单纯地将调用传递给目标对象。\n\n\n
+            优点:给对象增加了本地化的扩展性，增加了存取操作控制。\n\n缺点:会产生多余的代理类。</string>
+    <string name="design_builder_info">将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。\n\n
+            Product产品类:产品的抽象类。\n Builder:抽象类,规范产品的组建，一般是由子类实现具体的组件过程。\n ConcreteBuilder:具体的构建器。\n Director:统一组装过程(可省略)。\n\n
+            优点:\n1、良好的封装性， 使用建造者模式可以使客户端不必知道产品内部组成的细节。\n2、建造者独立，容易扩展。\n3、在对象创建过程中会使用到系统中的一些其它对象，这些对象在产品对象的创建过程中不易得到。\n\n
+            缺点\n1、会产生多余的Builder对象以及Director对象，消耗内存。\n2、对象的构建过程暴露。</string>
+    <string name="load_large_image_info">在展示高分辨率图片的时候，最好先将图片进行压缩。压缩后的图片大小应该和用来展示它的控件大小相近，在一个很小的ImageView上显示一张超大的图片不会带来任何视觉上的好处，但却会占用我们相当多宝贵的内存，而且在性能上还可能会带来负面影响。
+            对一张大图片进行适当的压缩，让它能够以最佳大小显示的同时，还能防止OOM的出现。\n\n\n BitmapFactory这个类提供了多个解析方法(decodeByteArray, decodeFile, decodeResource等)用于创建Bitmap对象，我们应该根据图片的来源选择合适的方法。比如SD卡中的图片可以使用decodeFile方法，网络上的图片可以使用decodeStream方法，资源文件中的图片可以使用decodeResource方法。这些方法会尝试为已经构建的bitmap分配内存，这时就会很容易导致OOM出现。为此每一种解析方法都提供了一个可选的BitmapFactory.Options参数，将这个参数的inJustDecodeBounds属性设置为true就可以让解析方法禁止为bitmap分配内存，返回值也不再是一个Bitmap对象，而是null。虽然Bitmap是null了，但是BitmapFactory.Options的outWidth、outHeight和outMimeType属性都会被赋值。
+            这个技巧让我们可以在加载图片之前就获取到图片的长宽值和MIME类型，从而根据情况对图片进行压缩。</string>
+    <string name="image_handle_info">使用LruCache来缓存图片，不需要担心内存溢出的情况，当LruCache中存储图片的总大小达到容量上限的时候，会自动把最近最少使用的图片从缓存中移除。</string>
+    <string name="http_connection_info">HttpUrlConnection请求方式分为get和post，get请求可以获取静态页面，把参数放在URL字串后面，传递给服务端，post与get的不同之处在于post的参数不是放在URL字串里面，而是放在http请求的正文内。\n\n
+            1、在对大文件的操作时,要将文件写到SDCard上面,不要直接写到手机内存上。\n2、操作大文件是,要一遍从网络上读,一遍要往SDCard上面写,减少手机内存的使用。\n3、对文件流操作完,要记得及时关闭。\n4、发送POST请求必须设置允许输出。\n5、不要使用缓存,容易出现问题。\n\n
+            HttpURLConnection.connect函数，实际上只是建立了一个与服务器的tcp连接，并没有实际发送http请求。无论是post还是get，http请求实际上直到HttpURLConnection.getInputStream()这个函数里面才正式发送出去。\n\n
+            对connection对象的一切配置（那一堆set函数）都必须要在connect()函数执行之前完成。而对outputStream的写操作，又必须要在inputStream的读操作之前。这些顺序实际上是由http请求的格式决定的。\n\n
+            http请求实际上由两部分组成，一个是http头，所有关于此次http请求的配置都在http头里面定义，一个是正文content，在connect()函数里面，会根据HttpURLConnection对象的配置值生成http头，因此在调用connect函数之前，就必须把所有的配置准备好。\n\n
+            紧接着http头的是http请求的正文，正文的内容通过outputStream写入，实际上outputStream不是一个网络流，充其量是个字符串流，往里面写入的东西不会立即发送到网络，而是在流关闭后，根据输入的内容生成http正文。\n\n
+            至此，http请求的东西已经准备就绪。在getInputStream()函数调用的时候，就会把准备好的http请求正式发送到服务器了，然后返回一个输入流，用于读取服务器对于此次http请求的返回信息。由于http请求在getInputStream的时候已经发送出去了（包括http头和正文），因此在getInputStream()函数之后对connection对象进行设置（对http头的信息进行修改）或者写入outputStream（对正文进行修改）都是没有意义的了，执行这些操作会导致异常的发生。</string>
+    <string name="http_client_info">5.0之后废弃了</string>
+    <string name="http_specialty_info">HTTP协议即超文本传送协议(Hypertext Transfer Protocol )，是Web联网的基础，也是手机联网常用的协议之一，HTTP协议是建立在TCP协议之上的一种应用。\n\n
+            HTTP连接最显著的特点是客户端发送的每次请求都需要服务器回送响应，在请求结束后，会主动释放连接。从建立连接到关闭连接的过程称为“一次连接”。\n</string>
+    <string name="socket_info">套接字（socket）概念:\n\n套接字（socket）是通信的基石，是支持TCP/IP协议的网络通信的基本操作单元。它是网络通信过程中端点的抽象表示，包含进行网络通信必须的五种信息：连接使用的协议，本地主机的IP地址，本地进程的协议端口，远地主机的IP地址，远地进程的协议端口。\n\n
+            应用层通过传输层进行数据通信时，TCP会遇到同时为多个应用程序进程提供并发服务的问题。多个TCP连接或多个应用程序进程可能需要通过同一个 TCP协议端口传输数据。为了区别不同的应用程序进程和连接，许多计算机操作系统为应用程序与TCP／IP协议交互提供了套接字(Socket)接口。应用层可以和传输层通过Socket接口，区分来自不同应用程序进程或网络连接的通信，实现数据传输的并发服务。\n\n\n建立socket连接:\n\n建立Socket连接至少需要一对套接字，其中一个运行于客户端，称为ClientSocket ，另一个运行于服务器端，称为ServerSocket 。\n\n套接字之间的连接过程分为三个步骤：服务器监听，客户端请求，连接确认。\n\n服务器监听：服务器端套接字并不定位具体的客户端套接字，而是处于等待连接的状态，实时监控网络状态，等待客户端的连接请求。\n\n客户端请求：指客户端的套接字提出连接请求，要连接的目标是服务器端的套接字。为此，客户端的套接字必须首先描述它要连接的服务器的套接字，指出服务器端套接字的地址和端口号，然后就向服务器端套接字提出连接请求。\n\n连接确认：当服务器端套接字监听到或者说接收到客户端套接字的连接请求时，就响应客户端套接字的请求，建立一个新的线程，把服务器端套接字的描述发给客户端，一旦客户端确认了此描述，双方就正式建立连接。而服务器端套接字继续处于监听状态，继续接收其他客户端套接字的连接请求。\n\n</string>
+    <string name="http_socket_info">Http:\n\n
+            http全文是超文本传输协议,是一种万维网常用的协议,它是TCP协议的一种典型上的应用,而TCP协议有一个典型的特点,个人认为非常的不好,就是"三次握手",你说你一次性给我说明白了不好,还非要一来一去,又不是谈恋爱.当然了,玩笑归玩笑,记住这个特征,因为很多时候我们都会忘记这个基本特征。\n
+            http还有一个特点是"断链接",你也可以说是短链接,不过用"断链接"我觉的更合适.也就是说当我们用http协议打开一个信息点的时候,信息读取完毕双方会自动断开。\n\n\n
+            Socket:\n\n
+            socket(套接字)是TCP/IP协议的基本操作单元。它是网络通信过程中端点的抽象表示。同HTTP不同的是http只能走tcp,socket不仅能走tcp,而且还能走udp,这个是socket的第一个特点。\n
+            socket的另外一个特点是他可以是"长链接",也就是说除非双方主动断开,否则,他不会自动断开.这个特点非常的好,很多应用都会需要长链接,不过缺点是他太博爱了,来者不拒,而且还不好检查,所以,为了保持服务器资源的最大利用率,通常我们会要求双方通过定时的心跳方式来确认长链接的有效性.只要心跳不存在,服务器就可以及时剔除掉这些死链接。\n\n\n
+            ok,这样一分析,一的意思是我们就能理解了常规处理下,哪些地方用"PUSH", 哪些地方用"PUll"了.二的意思也就是说在TCP的握手协议的基础上,我们是完全可以通过socket的互相应答的方式实现http的请求-应答传输的.尤其是在一些特定的应用下,使用简单的socket模拟http,比用http要快很多.平常时候看不出来效果,关键时刻拼的就是效率了。\n</string>
+    <string name="udp_info">1、TCP是面向链接的，虽然说网络的不安全不稳定特性决定了多少次握手都不能保证连接的可靠性，但TCP的三次握手在最低限度上(实际上也很大程度上保证了)保证了连接的可靠性;而UDP不是面向连接的，UDP传送数据前并不与对方建立连接，对接收到的数据也不发送确认信号，发送端不知道数据是否会正确接收，当然也不用重发，所以说UDP是无连接的、不可靠的一种数据传输协议。\n\n
+            2、也正由于1所说的特点，使得UDP的开销更小数据传输速率更高，因为不必进行收发数据的确认，所以UDP的实时性更好。知道了TCP和UDP的区别，就不难理解为何采用TCP传输协议的MSN比采用UDP的QQ传输文件慢了，但并不能说QQ的通信是不安全的，因为程序员可以手动对UDP的数据收发进行验证，比如发送方对每个数据包进行编号然后由接收方进行验证啊什么的，即使是这样，UDP因为在底层协议的封装上没有采用类似TCP的“三次握手”而实现了TCP所无法达到的传输效率。</string>
+    <string name="tcp_info">手机能够使用联网功能是因为手机底层实现了TCP/IP协议，可以使手机终端通过无线网络建立TCP连接。TCP协议可以对上层网络提供接口，使上层网络数据的传输建立在“无差别”的网络之上。\n\n
+            建立起一个TCP连接需要经过“三次握手”：\n\n第一次握手：客户端发送syn包(syn=j)到服务器，并进入SYN_SEND状态，等待服务器确认；\n\n第二次握手：服务器收到syn包，必须确认客户的SYN（ack=j+1），同时自己也发送一个SYN包（syn=k），即SYN+ACK包，此时服务器进入SYN_RECV状态；\n\n第三次握手：客户端收到服务器的SYN＋ACK包，向服务器发送确认包ACK(ack=k+1)，此包发送完毕，客户端和服务器进入ESTABLISHED状态，完成三次握手。\n\n握手过程中传送的包里不包含数据，三次握手完毕后，客户端与服务器才正式开始传送数据。理想状态下，TCP连接一旦建立，在通信双方中的任何一方主动关闭连接之前，TCP 连接都将被一直保持下去。断开连接时服务器和客户端均可以主动发起断开TCP连接的请求，断开过程需要经过“四次握手”（过程就不细写了，就是服务器和客户端交互，最终确定断开）。\n</string>
+    <string name="tcp_socket_info">创建Socket连接时，可以指定使用的传输层协议，Socket可以支持不同的传输层协议（TCP或UDP），当使用TCP协议进行连接时，该Socket连接就是一个TCP连接。</string>
+    <string name="thread_process_info">现在的操作系统是多任务操作系统。多线程是实现多任务的一种方式。\n\n进程是指一个内存中运行的应用程序，每个进程都有自己独立的一块内存空间，一个进程中可以启动多个线程。比如在Windows系统中，一个运行的exe就是一个进程。\n\n线程是指进程中的一个执行流程，一个进程中可以运行多个线程。比如java.exe进程中可以运行很多线程。线程总是属于某个进程，进程中的多个线程共享进程的内存。\n\n"同时"执行是人的感觉，在线程之间实际上轮换执行。</string>
+    <string name="thread_in_java_info">在Java中，“线程”指两件不同的事情：\n\n1、java.lang.Thread类的一个实例；\n2、线程的执行。\n\n使用java.lang.Thread类或者java.lang.Runnable接口编写代码来定义、实例化和启动新线程。\n\n一个Thread类实例只是一个对象，像Java中的任何其他对象一样，具有变量和方法，生死于堆上。\n\nJava中，每个线程都有一个调用栈，即使不在程序中创建任何新的线程，线程也在后台运行着。\n\n
+            一个Java应用总是从main()方法开始运行，main()方法运行在一个线程内，它被称为主线程。\n\n一旦创建一个新的线程，就产生一个新的调用栈。\n\n线程总体分两类：用户线程和守候线程。\n\n当所有用户线程执行完毕的时候，JVM自动关闭。但是守候线程却不独立于JVM，守候线程一般是由操作系统或者用户自己创建的</string>
+    <string name="thread_define_info">1、扩展java.lang.Thread类。\n\n此类中有个run()方法，应该注意其用法：\n public void run()\n如果该线程是使用独立的Runnable运行对象构造的，则调用该Runnable对象的run方法；否则，该方法不执行任何操作并返回。\nThread的子类应该重写该方法。\n\n\n
+            2、实现java.lang.Runnable接口。\n\n void run()\n使用实现接口Runnable的对象创建一个线程时，启动该线程将导致在独立执行的线程中调用对象的run方法。\n方法run的常规协定是，它可能执行任何所需的操作。</string>
+    <string name="thread_instantiation_info">1、如果是扩展java.lang.Thread类的线程，则直接new即可。\n\n2、如果是实现了java.lang.Runnable接口的类，则用Thread的构造方法：\n\n
+            Thread(Runnable target) \n\nThread(Runnable target, String name) \n\nThread(ThreadGroup group, Runnable target)\n\nThread(ThreadGroup group, Runnable target, String name)\n\nThread(ThreadGroup group, Runnable target, String name, long stackSize)</string>
+    <string name="thread_start_info">在线程的Thread对象上调用start()方法，而不是run()或者别的方法。\n\n
+            在调用start()方法之前：线程处于新状态中，新状态指有一个Thread对象，但还没有一个真正的线程。\n在调用start()方法之后：发生了一系列复杂的事情\n启动新的执行线程（具有新的调用栈）；\n该线程从新状态转移到可运行状态；\n当该线程获得机会执行时，其目标run()方法将运行。\n\n注意：对Java来说，run()方法没有任何特别之处。像main()方法一样，它只是新线程知道调用的方法名称(和签名)。因此，在Runnable上或者Thread上调用run方法是合法的。但并不启动新的线程。</string>
+    <string name="thread_problem_info">1、线程的名字，一个运行中的线程总是有名字的，名字有两个来源，一个是虚拟机自己给的名字，一个是你自己的定的名字。在没有指定线程名字的情况下，虚拟机总会为线程指定名字，并且主线程的名字总是main，非主线程的名字不确定。\n\n2、线程都可以设置名字，也可以获取线程的名字，连主线程也不例外。\n\n3、获取当前线程的对象的方法是：Thread.currentThread()；\n\n4、在上面的代码中，只能保证：每个线程都将启动，每个线程都将运行直到完成。一系列线程以某种顺序启动并不意味着将按该顺序执行。对于任何一组启动的线程来说，调度程序不能保证其执行次序，持续时间也无法保证。\n\n5、当线程目标run()方法结束时该线程完成。\n\n6、一旦线程启动，它就永远不能再重新启动。只有一个新的线程可以被启动，并且只能一次。一个可运行的线程或死线程可以被重新启动。\n\n7、线程的调度是JVM的一部分，在一个CPU的机器上上，实际上一次只能运行一个线程。一次只有一个线程栈执行。JVM线程调度程序决定实际运行哪个处于可运行状态的线程。\n\n众多可运行线程中的某一个会被选中做为当前线程。可运行线程被选择运行的顺序是没有保障的。\n\n8、尽管通常采用队列形式，但这是没有保障的。队列形式是指当一个线程完成“一轮”时，它移到可运行队列的尾部等待，直到它最终排队到该队列的前端为止，它才能被再次选中。事实上，我们把它称为可运行池而不是一个可运行队列，目的是帮助认识线程并不都是以某种有保障的顺序排列唱呢个一个队列的事实。\n\n9、尽管我们没有无法控制线程调度程序，但可以通过别的方式来影响线程调度的方式。</string>
+    <string name="thread_state_info">线程的状态转换是线程控制的基础。线程状态总的可分为五大状态：分别是生、死、可运行、运行、等待/阻塞。\n\n
+            1、新状态：线程对象已经创建，还没有在其上调用start()方法。\n\n2、可运行状态：当线程有资格运行，但调度程序还没有把它选定为运行线程时线程所处的状态。当start()方法调用时，线程首先进入可运行状态。在线程运行之后或者从阻塞、等待或睡眠状态回来后，也返回到可运行状态。\n\n3、运行状态：线程调度程序从可运行池中选择一个线程作为当前线程时线程所处的状态。这也是线程进入运行状态的唯一一种方式。\n\n4、等待/阻塞/睡眠状态：这是线程有资格运行时它所处的状态。实际上这个三状态组合为一种，其共同点是：线程仍旧是活的，但是当前没有条件运行。换句话说，它是可运行的，但是如果某件事件出现，他可能返回到可运行状态。\n\n5、死亡态：当线程的run()方法完成时就认为它死去。这个线程对象也许是活的，但是，它已经不是一个单独执行的线程。线程一旦死亡，就不能复生。如果在一个死去的线程上调用start()方法，会抛出java.lang.IllegalThreadStateException异常。</string>
+    <string name="thread_priority_info">线程总是存在优先级，优先级范围在1~10之间。JVM线程调度程序是基于优先级的抢先调度机制。在大多数情况下，当前运行的线程优先级将大于或等于线程池中任何线程的优先级。但这仅仅是大多数情况。\n\n注意：当设计多线程应用程序的时候，一定不要依赖于线程的优先级。因为线程调度优先级操作是没有保障的，只能把线程优先级作用作为一种提高程序效率的方法，但是要保证程序不依赖这种操作。\n\n当线程池中线程都具有相同的优先级，调度程序的JVM实现自由选择它喜欢的线程。这时候调度程序的操作有两种可能：一是选择一个线程运行，直到它阻塞或者运行完成为止。二是时间分片，为池内的每个线程提供均等的运行机会。\n\n
+            设置线程的优先级：线程默认的优先级是创建它的执行线程的优先级。可以通过setPriority(int newPriority)更改线程的优先级。\n\n线程优先级为1~10之间的正整数，JVM从不会改变一个线程的优先级。然而，1~10之间的值是没有保证的。一些JVM可能不能识别10个不同的值，而将这些优先级进行每两个或多个合并，变成少于10个的优先级，则两个或多个优先级的线程可能被映射为一个优先级。\n\n线程默认优先级是5，Thread类中有三个常量，定义线程优先级范围：\n\n static int MAX_PRIORITY \n线程可以具有的最高优先级。\n\n static int MIN_PRIORITY\n线程可以具有的最低优先级。\n\n static int NORM_PRIORITY\n 分配给线程的默认优先级。</string>
+    <string name="thread_sleep1_info">Thread.sleep(long millis)和Thread.sleep(long millis, int nanos)静态方法强制当前正在执行的线程休眠（暂停执行），以“减慢线程”。当线程睡眠时，它入睡在某个地方，在苏醒之前不会返回到可运行状态。当睡眠时间到期，则返回到可运行状态。\n\n线程睡眠的原因：线程执行太快，或者需要强制进入下一轮，因为Java规范不保证合理的轮换。\n\n
+            睡眠的位置：为了让其他线程有机会执行，可以将Thread.sleep()的调用放线程run()之内。这样才能保证该线程执行过程中会睡眠。\n\n注意：\n\n1、线程睡眠是帮助所有线程获得运行机会的最好方法。\n2、线程睡眠到期自动苏醒，并返回到可运行状态，不是运行状态。sleep()中指定的时间是线程不会运行的最短时间。因此，sleep()方法不能保证该线程睡眠到期后就开始执行。\n3、sleep()是静态方法，只能控制当前正在运行的线程。\n</string>
+    <string name="thread_yield_info">线程的让步是通过Thread.yield()来实现的。yield()方法的作用是：暂停当前正在执行的线程对象，并执行其他线程。\n\n yield()应该做的是让当前运行线程回到可运行状态，以允许具有相同优先级的其他线程获得运行机会。因此，使用yield()的目的是让相同优先级的线程之间能适当的轮转执行。但是，实际中无法保证yield()达到让步目的，因为让步的线程还有可能被线程调度程序再次选中。\n\n结论：yield()从未导致线程转到等待/睡眠/阻塞状态。在大多数情况下，yield()将导致线程从运行状态转到可运行状态，但有可能没有效果。</string>
+    <string name="thread_join_info">Thread的非静态方法join()让一个线程B“加入”到另外一个线程A的尾部。在A执行完毕之前，B不能工作。\n\n例如：\nThread t = new MyThread();\n t.start();\n t.join();\n\n另外，join()方法还有带超时限制的重载版本。例如t.join(5000);则让线程等待5000毫秒，如果超过这个时间，则停止等待，变为可运行状态。\n\n线程的加入join()对线程栈导致的结果是线程栈发生了变化，当然这些变化都是瞬时的。</string>
+    <string name="thread_state_convert_summary_info">线程进入阻塞状态的3种方法：\n\n1、调用Thread.sleep()：使当前线程睡眠至少多少毫秒（尽管它可能在指定的时间之前被中断）。\n\n2、调用Thread.yield()：不能保障太多事情，尽管通常它会让当前运行线程回到可运行性状态，使得有相同优先级的线程有机会执行。\n\n3、调用join()方法：保证当前线程停止执行，直到该线程所加入的线程完成为止。然而，如果它加入的线程没有存活，则当前线程不需要停止。\n\n\n除了以上三种方式外，还有下面几种特殊情况可能使线程离开运行状态：\n\n1、线程的run()方法完成。\n\n2、在对象上调用wait()方法（不是在线程上调用）。\n\n3、线程不能在对象上获得锁定，它正试图运行该对象的方法代码。\n\n4、线程调度程序可以决定将当前运行状态移动到可运行状态，以便让另一个线程获得运行机会，而不需要任何理由。</string>
+    <string name="thread_sync_problem_info">线程的同步是为了防止多个线程访问一个数据对象时，对数据造成的破坏。\n\n完成同步方式:把竞争访问的资源类中的变量x标识为private；\n\n同步哪些修改变量的代码，使用synchronized关键字同步方法或代码。</string>
+    <string name="thread_sync_lock_summary_info">1、线程同步的目的是为了保护多个线程反问一个资源时对资源的破坏。\n\n2、线程同步方法是通过锁来实现，每个对象都有切仅有一个锁，这个锁与一个特定的对象关联，线程一旦获取了对象锁，其他访问该对象的线程就无法再访问该对象的其他同步方法。\n\n3、对于静态同步方法，锁是针对这个类的，锁对象是该类的Class对象。静态和非静态方法的锁互不干预。一个线程获得锁，当在一个同步方法中访问另外对象上的同步方法时，会获取这两个对象锁。\n\n4、对于同步，要时刻清醒在哪个对象上同步，这是关键。\n\n
+            5、编写线程安全的类，需要时刻注意对多个线程竞争访问资源的逻辑和安全做出正确的判断，对“原子”操作做出分析，并保证原子操作期间别的线程无法访问竞争资源。\n\n6、当多个线程等待一个对象锁时，没有获取到锁的线程将发生阻塞。\n\n7、死锁是线程间相互等待锁锁造成的，在实际中发生的概率非常的小。真让你写个死锁程序，不一定好使，呵呵。但是，一旦程序发生死锁，程序将死掉。</string>
+    <string name="thread_sync_lock1_info">Java中每个对象都有一个内置锁。\n\n当程序运行到非静态的synchronized同步方法上时，自动获得与正在执行代码类的当前实例（this实例）有关的锁。获得一个对象的锁也称为获取锁、锁定对象、在对象上锁定或在对象上同步。\n\n当程序运行到synchronized同步方法或代码块时才该对象锁才起作用。\n\n一个对象只有一个锁。所以，如果一个线程获得该锁，就没有其他线程可以获得锁，直到第一个线程释放（或返回）锁。这也意味着任何其他线程都不能进入该对象上的synchronized方法或代码块，直到该锁被释放。\n\释放锁是指持锁线程退出了synchronized同步方法或代码块。\n\n\n
+            关于锁和同步，有一下几个要点：\n\n1）、只能同步方法，而不能同步变量和类。\n\n2）、每个对象只有一个锁；当提到同步时，应该清楚在什么上同步？也就是说，在哪个对象上同步？\n\n3）、不必同步类中所有的方法，类可以同时拥有同步和非同步方法。\n\n4）、如果两个线程要执行一个类中的synchronized方法，并且两个线程使用相同的实例来调用方法，那么一次只能有一个线程能够执行方法，另一个需要等待，直到锁被释放。也就是说：如果一个线程在对象上获得一个锁，就没有任何其他线程可以进入（该对象的）类中的任何一个同步方法。\n\n5）、如果线程拥有同步和非同步方法，则非同步方法可以被多个线程自由访问而不受锁的限制。\n\n6）、线程睡眠时，它所持的任何锁都不会释放。\n\n7）、线程可以获得多个锁。比如，在一个对象的同步方法里面调用另外一个对象的同步方法，则获取了两个对象的同步锁。\n\n8）、同步损害并发性，应该尽可能缩小同步范围。同步不但可以同步整个方法，还可以同步方法中一部分代码块。\n\n9）、在使用同步代码块时候，应该指定在哪个对象上同步，也就是说要获取哪个对象的锁。\n\n</string>
+    <string name="thread_static_method_sync_info">要同步静态方法，需要一个用于整个类对象的锁，这个对象是就是这个类（XXX.class)。</string>
+    <string name="thread_not_get_lock_info">如果线程试图进入同步方法，而其锁已经被占用，则线程在该对象上被阻塞。实质上，线程进入该对象的的一种池中，必须在哪里等待，直到其锁被释放，该线程再次变为可运行或运行为止。\n\n
+            当考虑阻塞时，一定要注意哪个对象正被用于锁定：\n\n1、调用同一个对象中非静态同步方法的线程将彼此阻塞。如果是不同对象，则每个线程有自己的对象的锁，线程间彼此互不干预。\n\n2、调用同一个类中的静态同步方法的线程将彼此阻塞，它们都是锁定在相同的Class对象上。\n\n3、静态同步方法和非静态同步方法将永远不会彼此阻塞，因为静态方法锁定在Class对象上，非静态方法锁定在该类的对象上。\n\n4、对于同步代码块，要看清楚什么对象已经用于锁定（synchronized后面括号的内容）。在同一个对象上进行同步的线程将彼此阻塞，在不同对象上锁定的线程将永远不会彼此阻塞。\n</string>
+    <string name="thread_when_sync_info">在多个线程同时访问互斥（可交换）数据时，应该同步以保护数据，确保两个线程不会同时修改更改它。\n\n对于非静态字段中可更改的数据，通常使用非静态方法访问。\n对于静态字段中可更改的数据，通常使用静态方法访问。\n</string>
+    <string name="thread_dead_lock_info">死锁对Java程序来说，是很复杂的，也很难发现问题。当两个线程被阻塞，每个线程在等待另一个线程时就发生死锁。\n\n假设read()方法由一个线程启动，write()方法由另外一个线程启动。读线程将拥有resourceA锁，写线程将拥有resourceB锁，两者都坚持等待的话就出现死锁。\n\n实际上，发生死锁的概率很小。因为在代码内的某个点，CPU必须从读线程切换到写线程，所以，死锁基本上不能发生。\n\n但是，无论代码中发生死锁的概率有多小，一旦发生死锁，程序就死掉。有一些设计方法能帮助避免死锁，包括始终按照预定义的顺序获取锁这一策略。\n\n</string>
+    <string name="thread_safe_class_info">当一个类已经很好的同步以保护它的数据时，这个类就称为“线程安全的”。\n\n即使是线程安全类，也应该特别小心，因为操作的线程时间仍然不一定安全。\n\n
+            举个形象的例子，比如一个集合是线程安全的，有两个线程在操作同一个集合对象，当第一个线程查询集合非空后，删除集合中所有元素的时候。第二个线程也来执行与第一个线程相同的操作，也许在第一个线程查询后，第二个线程也查询出集合非空，但是当第一个执行清除后，第二个再执行删除显然是不对的，因为此时集合已经为空了。\n\n解决上面问题的办法是，在操作集合对象的方法上面做一个同步,这样，当一个线程访问其中一个同步方法时，其他线程只有等待。</string>
+</resources>

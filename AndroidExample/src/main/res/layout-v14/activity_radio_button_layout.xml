@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/title_style">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            style="@style/title_icon_back_style"
+            android:contentDescription="@string/title"
+            android:paddingLeft="@dimen/padding_10"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/title_text_style"
+            android:text="@string/title" />
+
+        <TextView style="@style/title_line_style" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton_beijing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="北京" />
+
+            <RadioButton
+                android:id="@+id/radioButton_tianjin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天津" />
+
+            <RadioButton
+                android:id="@+id/radioButton_shanghaig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="上海" />
+
+            <RadioButton
+                android:id="@+id/radioButton_chongqing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重庆" />
+
+            <RadioButton
+                android:id="@+id/radioButton_hide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableLeft="@drawable/icon_right"
+                android:drawablePadding="20dp"
+                android:text="自定义" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="北京" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="天津" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="上海" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="重庆" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextView_Notice_Style"
+            android:text="@string/radio_button_info" />
+    </LinearLayout>
+</LinearLayout>

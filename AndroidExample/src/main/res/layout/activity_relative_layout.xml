@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/title_style">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            style="@style/title_icon_back_style"
+            android:contentDescription="@string/title"
+            android:paddingLeft="@dimen/padding_10"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/title_text_style"
+            android:text="@string/title" />
+
+        <TextView style="@style/title_line_style" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:background="@color/LightPink"
+            android:gravity="center"
+            android:text="左上角" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/Pink"
+            android:gravity="center"
+            android:text="右上角" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/Crimson"
+            android:gravity="center"
+            android:text="左下角" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/Blue"
+            android:gravity="center"
+            android:text="右下角" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/CornflowerBlue"
+            android:gravity="center"
+            android:text="水平居中" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:background="@color/LightSkyBlue"
+            android:gravity="center"
+            android:text="垂直居中" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:background="@color/Turquoise"
+            android:gravity="center"
+            android:text="居中" />
+    </RelativeLayout>
+</LinearLayout>

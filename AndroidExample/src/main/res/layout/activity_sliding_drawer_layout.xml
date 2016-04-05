@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/title_style">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            style="@style/title_icon_back_style"
+            android:contentDescription="@string/title"
+            android:paddingLeft="@dimen/padding_10"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/title_text_style"
+            android:text="@string/title" />
+
+        <TextView style="@style/title_line_style" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <SlidingDrawer
+            android:id="@+id/slidingDrawer_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:content="@+id/vertical_content"
+            android:handle="@+id/open_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/vertical_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/Cyan"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/icon_foreground" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/open_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="垂直打开" />
+        </SlidingDrawer>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Gray" />
+
+        <SlidingDrawer
+            android:id="@+id/slidingDrawer_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:content="@+id/horizontal_content"
+            android:handle="@+id/open_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/horizontal_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/LightCyan"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/icon_foreground" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/open_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="水平打开" />
+        </SlidingDrawer>
+    </LinearLayout>
+</LinearLayout>

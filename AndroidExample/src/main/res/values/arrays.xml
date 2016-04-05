@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>C语言</item>
+        <item>C++</item>
+        <item>JAVA</item>
+        <item>PHP</item>
+    </string-array>
+
+    <string-array name="items">
+        <item>item0</item>
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+    </string-array>
+
+    <declare-styleable name="IndentifyingCode">
+        <attr name="codeCount" format="integer|reference" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+
+</resources>

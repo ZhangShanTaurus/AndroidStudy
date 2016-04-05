@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/title_style">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            style="@style/title_icon_back_style"
+            android:contentDescription="@string/title"
+            android:paddingLeft="@dimen/padding_10"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/title_text_style"
+            android:text="@string/title" />
+
+        <TextView style="@style/title_line_style" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <QuickContactBadge
+            android:id="@+id/quickContactBadge_phone"
+            style="?android:attr/quickContactBadgeStyleWindowSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="3dip"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="14dip"
+            android:layout_marginTop="4dip"
+            android:src="@drawable/icon_qq" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/quickContactBadge_phone"
+            android:paddingLeft="2dip"
+            android:text="联系人"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Chocolate" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <QuickContactBadge
+            android:id="@+id/quickContactBadge_email"
+            style="?android:attr/quickContactBadgeStyleWindowSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="3dip"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="14dip"
+            android:layout_marginTop="4dip"
+            android:src="@drawable/icon_qq" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/quickContactBadge_email"
+            android:paddingLeft="2dip"
+            android:text="联系人"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Chocolate" />
+    </RelativeLayout>
+</LinearLayout>

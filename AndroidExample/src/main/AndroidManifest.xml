@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.example"
+    android:revisionCode="10"
+    android:versionName="1.0">
+
+    <!--版本-->
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <!--网络访问权限-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--读写sd卡权限-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--读取联系人权限-->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!--打开相机权限-->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 拨打电话权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.NoTitleBar">
+
+        <activity android:name=".main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".common.CommonActivity" />
+
+        <activity android:name=".ui.layout.DrawerLayoutActivity" />
+        <activity android:name=".ui.layout.FrameLayoutActivity" />
+        <activity android:name=".ui.layout.GridLayoutActivity" />
+        <activity android:name=".ui.layout.LinearLayoutActivity" />
+        <activity android:name=".ui.layout.RelativeLayoutActivity" />
+        <activity android:name=".ui.layout.SlidingPaneLayoutActivity" />
+        <activity android:name=".ui.layout.TableLayoutActivity" />
+
+        <activity android:name=".ui.view.widgets.TextViewActivity" />
+        <activity android:name=".ui.view.widgets.ButtonActivity" />
+        <activity android:name=".ui.view.widgets.RadioButtonActivity" />
+        <activity android:name=".ui.view.widgets.CheckBoxActivity" />
+        <activity android:name=".ui.view.widgets.SwitchActivity" />
+        <activity android:name=".ui.view.widgets.ToggleButtonActivity" />
+        <activity android:name=".ui.view.widgets.ImageButtonActivity" />
+        <activity android:name=".ui.view.widgets.ImageViewActivity" />
+        <activity android:name=".ui.view.widgets.ProgressBarActivity" />
+        <activity android:name=".ui.view.widgets.SeekBarActivity" />
+        <activity android:name=".ui.view.widgets.RatingBarActivity" />
+        <activity android:name=".ui.view.widgets.SpinnerActivity" />
+        <activity android:name=".ui.view.widgets.WebViewActivity" />
+        <activity
+            android:name=".ui.view.widgets.TabLayoutActivity"
+            android:theme="@style/Theme.AppCompat" />
+
+        <activity android:name=".ui.view.container.ListViewActivity" />
+        <activity android:name=".ui.view.container.GridViewActivity" />
+        <activity android:name=".ui.view.container.TabHostActivity" />
+        <activity android:name=".ui.view.container.ExpandableListViewActivity" />
+        <activity android:name=".ui.view.container.ScrollViewActivity" />
+        <activity android:name=".ui.view.container.SlidingDrawerActivity" />
+        <activity android:name=".ui.view.container.GalleryActivity" />
+        <activity android:name=".ui.view.container.VideoViewActivity" />
+        <activity android:name=".ui.view.container.DialerFilterActivity" />
+        <activity android:name=".ui.view.container.recycler_view.RecyclerViewActivity" />
+        <activity android:name=".ui.view.container.CardViewActivity" />
+
+        <activity android:name=".ui.view.data_time.TextClockActivity" />
+        <activity android:name=".ui.view.data_time.AnalogClockActivity" />
+        <activity android:name=".ui.view.data_time.ChronometerActivity" />
+        <activity android:name=".ui.view.data_time.DatePickerActivity" />
+        <activity android:name=".ui.view.data_time.TimePickerActivity" />
+        <activity android:name=".ui.view.data_time.CalendarViewActivity" />
+
+        <activity android:name=".ui.view.expert.SpaceActivity" />
+        <activity android:name=".ui.view.expert.CheckedTextViewActivity" />
+        <activity android:name=".ui.view.expert.QuickContactBadgeActivity" />
+        <activity android:name=".ui.view.expert.ExtractEditTextActivity" />
+        <activity android:name=".ui.view.expert.AutoCompleteTextViewActivity" />
+        <activity android:name=".ui.view.expert.MultiAutoCompleteTextViewActivity" />
+        <activity android:name=".ui.view.expert.NumberPickerActivity" />
+        <activity android:name=".ui.view.expert.ZoomButtonActivity" />
+        <activity android:name=".ui.view.expert.ZoomControlsActivity" />
+        <activity android:name=".ui.view.expert.GestureOverlayViewActivity" />
+        <activity android:name=".ui.view.expert.SurfaceViewActivity" />
+        <activity android:name=".ui.view.expert.TextureViewActivity" />
+        <activity android:name=".ui.view.expert.StackViewActivity" />
+        <activity android:name=".ui.view.expert.ViewStubActivity" />
+        <activity android:name=".ui.view.expert.ViewAnimatorActivity" />
+        <activity android:name=".ui.view.expert.ViewFlipperActivity" />
+        <activity android:name=".ui.view.expert.ViewSwitcherActivity" />
+        <activity android:name=".ui.view.expert.AdapterViewFlipperActivity" />
+        <activity android:name=".ui.view.expert.ImageSwitcherActivity" />
+        <activity android:name=".ui.view.expert.TextSwitcherActivity" />
+        <activity android:name=".ui.view.expert.ViewPagerActivity" />
+
+        <activity android:name=".base_knowledge.service.SimpleServiceActivity" />
+        <activity android:name=".base_knowledge.service.SevToActCommunicationActivity" />
+        <activity android:name=".base_knowledge.service.DestroySevWayActivity" />
+        <activity android:name=".base_knowledge.service.ServiceWithThreadActivity" />
+        <activity android:name=".base_knowledge.service.ForegroundServiceActivity" />
+        <activity android:name=".base_knowledge.service.RemoteServiceActivity" />
+        <activity android:name=".base_knowledge.service.IntentServiceActivity" />
+
+        <activity android:name=".base_knowledge.activity.ActivityLifeCycleActivity" />
+
+        <activity android:name=".base_knowledge.broadcast_receiver.StaticBroadcastActivity" />
+        <activity android:name=".base_knowledge.broadcast_receiver.DynamicBroadcastActivity" />
+        <activity android:name=".base_knowledge.broadcast_receiver.NormalBroadcastActivity" />
+        <activity android:name=".base_knowledge.broadcast_receiver.OrderBroadcastActivity" />
+
+        <activity android:name=".base_knowledge.content_provider.ConProBaseInfoActivity" />
+        <activity android:name=".base_knowledge.content_provider.GetSystemContactActivity" />
+        <activity android:name=".base_knowledge.content_provider.CustomConProActivity" />
+
+        <activity android:name=".base_knowledge.fragment.FragmentIntroduceActivity" />
+        <activity android:name=".base_knowledge.fragment.FragmentLifecycleActivity" />
+        <activity android:name=".base_knowledge.fragment.FragmentStaticAddActivity" />
+        <activity android:name=".base_knowledge.fragment.FragmentDynamicAddActivity" />
+        <activity android:name=".base_knowledge.fragment.ManageFragmentStackActivity" />
+        <activity android:name=".base_knowledge.fragment.FragmentCommunicationToActivity" />
+        <activity android:name=".base_knowledge.fragment.FragmentChangeActivity" />
+        <activity android:name=".base_knowledge.fragment.FragmentIntegrationActivity" />
+        <activity android:name=".base_knowledge.fragment.FragmentEmptyActivity" />
+        <activity android:name=".base_knowledge.fragment.FragmentDialogActivity" />
+
+        <activity android:name=".ui.anim.view_animation.AnimationListActivity" />
+        <activity android:name=".ui.anim.view_animation.AnimationCommonPropertyActivity" />
+        <activity android:name=".ui.anim.view_animation.AnimationAlphaActivity" />
+        <activity android:name=".ui.anim.view_animation.AnimationScaleActivity" />
+        <activity android:name=".ui.anim.view_animation.AnimationTranslateActivity" />
+        <activity android:name=".ui.anim.view_animation.AnimationRotateActivity" />
+        <activity android:name=".ui.anim.view_animation.AnimationSetActivity" />
+        <activity android:name=".ui.anim.view_animation.AnimationInterpolatorActivity" />
+        <activity android:name=".ui.anim.view_animation.AnimationLayoutControllerActivity" />
+        <activity android:name=".ui.anim.view_animation.AnimationListenerActivity" />
+
+        <activity android:name=".ui.anim.property_animation.PropertyAnimatorBaseInfoActivity" />
+        <activity android:name=".ui.anim.property_animation.value_animation.ValueAnimator1Activity" />
+        <activity android:name=".ui.anim.property_animation.value_animation.ValueAnimator2Activity" />
+        <activity android:name=".ui.anim.property_animation.value_animation.ValueAnimator3Activity" />
+        <activity android:name=".ui.anim.property_animation.object_animation.ObjectAnimatorBaseInfoActivity" />
+        <activity android:name=".ui.anim.property_animation.object_animation.ObjectAnimatorPrincipleActivity" />
+        <activity android:name=".ui.anim.property_animation.object_animation.ObjectAnimatorDefineActivity" />
+        <activity android:name=".ui.anim.property_animation.object_animation.ObjectAnimatorMethodActivity" />
+
+        <activity android:name=".ui.anim.property_animation.property_value_holder.PropertyValueHolderInfoActivity" />
+        <activity android:name=".ui.anim.property_animation.property_value_holder.PropertyValueHolderMethod1Activity" />
+        <activity android:name=".ui.anim.property_animation.property_value_holder.PropertyValueHolderMethod2Activity" />
+
+        <activity android:name=".ui.anim.property_animation.keyframe.KeyframeBaseInfoActivity" />
+        <activity android:name=".ui.anim.property_animation.keyframe.KeyframeMethod1Activity" />
+        <activity android:name=".ui.anim.property_animation.keyframe.KeyframeMethod2Activity" />
+        <activity android:name=".ui.anim.property_animation.keyframe.KeyframeInterpolatorActivity" />
+        <activity android:name=".ui.anim.property_animation.keyframe.KeyframeOtherInfoActivity" />
+
+        <activity android:name=".ui.anim.property_animation.animator_set_code.AnimatorSetPlayOrderActivity" />
+        <activity android:name=".ui.anim.property_animation.animator_set_code.AnimatorSetBuilderActivity" />
+        <activity android:name=".ui.anim.property_animation.animator_set_code.AnimatorSetListenerActivity" />
+        <activity android:name=".ui.anim.property_animation.animator_set_code.AnimatorSetSetActivity" />
+        <activity android:name=".ui.anim.property_animation.animator_set_code.AnimatorSetDelayActivity" />
+
+        <activity android:name=".ui.anim.property_animation.animator_set_xml.AnimatorSetXMLCommonActivity" />
+        <activity android:name=".ui.anim.property_animation.animator_set_xml.AnimatorSetXMLAnimatorActivity" />
+        <activity android:name=".ui.anim.property_animation.animator_set_xml.AnimatorSetXMLObjectAnimatorActivity" />
+        <activity android:name=".ui.anim.property_animation.animator_set_xml.AnimatorSetXMLSetAnimatorActivity" />
+        <activity android:name=".ui.anim.property_animation.animator_set_xml.AnimatorSetXMLSampleActivity" />
+
+        <activity android:name=".ui.custom_view.extends_view.validation_code.ValidationCodeActivity" />
+        <activity android:name=".ui.custom_view.extends_view.CustomViewSetupActivity" />
+        <activity android:name=".ui.custom_view.extends_view.bezier_view.BezierViewActivity" />
+        <activity android:name=".ui.custom_view.extends_view.broken_view.BrokenViewActivity" />
+        <activity android:name=".ui.custom_view.ViewCoordinateActivity" />
+
+        <activity android:name=".ui.resource.ResourceCommonActivity" />
+        <activity android:name=".ui.resource.AssetsActivity" />
+
+        <activity
+            android:name=".base_knowledge.activity.lunch_mode.LunchModeStandardActivity"
+            android:launchMode="standard" />
+        <activity
+            android:name=".base_knowledge.activity.lunch_mode.LunchModeSingleTopActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".base_knowledge.activity.lunch_mode.LunchModeSingleTaskActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".base_knowledge.activity.lunch_mode.LunchModeSingleInstanceActivity"
+            android:launchMode="singleInstance"
+            android:taskAffinity="" />
+        <activity android:name=".base_knowledge.activity.lunch_mode.LunchModeTransferActivity" />
+
+        <activity android:name=".base_knowledge.handler.HandlerCommonActivity" />
+
+        <activity android:name=".performance.ElectricOptimizeActivity" />
+        <activity android:name=".performance.FlowOptimizeActivity" />
+
+        <activity android:name=".performance.memory.oom.WhyOOMActivity" />
+
+        <activity android:name=".performance.memory.image_handle.LoadLargeImageActivity" />
+        <activity android:name=".performance.memory.image_handle.photo_wall.PhotoWallActivity" />
+        <activity android:name=".performance.memory.image_handle.fall_wall.FallWallActivity" />
+        <activity android:name=".performance.memory.image_handle.multipoint_touch.MultipointTouchActivity" />
+
+        <activity android:name=".base_knowledge.design_mode.singleton.SingletonActivity" />
+        <activity android:name=".base_knowledge.design_mode.proxy.ProxyActivity" />
+        <activity android:name=".base_knowledge.design_mode.builder.BuilderActivity" />
+
+        <activity android:name=".communication.http.HttpConnectionActivity" />
+        <activity android:name=".communication.http.HttpClientActivity" />
+        <activity android:name=".communication.http.HttpSpecialtyActivity" />
+
+        <activity android:name=".communication.tcp_udp.UdpActivity" />
+        <activity android:name=".communication.tcp_udp.TcpActivity" />
+        <activity android:name=".communication.tcp_udp.TcpUdpDiffActivity" />
+
+        <activity android:name=".communication.socket.SocketActivity" />
+        <activity android:name=".communication.socket.SocketAndTcpActivity" />
+        <activity android:name=".communication.socket.SocketAndHttpActivity" />
+
+        <activity android:name=".multi_thread.ThreadCommonInfoActivity" />
+        <activity android:name=".multi_thread.create_run.ThreadCreateRunActivity" />
+        <activity android:name=".multi_thread.sync_lock.ThreadSyncProblemActivity" />
+
+        <activity android:name=".ui.view.custom.ViewCustomActivity" />
+        <activity android:name=".ui.openGL.OpenGLActivity" />
+        <activity android:name=".ui.event_dispatch.EventDispatchActivity" />
+
+        <!--****************************************Service*******************************************-->
+        <service android:name=".base_knowledge.service.sample.SimpleService" />
+        <service android:name=".base_knowledge.service.sample.ToActCommunicationService" />
+        <service android:name=".base_knowledge.service.sample.ForegroundService" />
+        <service android:name=".base_knowledge.service.sample.WithThreadService" />
+        <service
+            android:name=".base_knowledge.service.sample.RemoteService"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.android.example.MyAIDLService" />
+            </intent-filter>
+        </service>
+        <service android:name=".base_knowledge.service.sample.UploadImgService" />
+
+        <!--*****************************************BroadcastReceiver**************************************-->
+        <receiver android:name=".base_knowledge.broadcast_receiver.sample.StaticBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.StaticBroadcastReceiver" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <!--无序广播-->
+        <receiver android:name=".base_knowledge.broadcast_receiver.sample.NormalFirstReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.NormalBroadcastActivity" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".base_knowledge.broadcast_receiver.sample.NormalSecondReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.NormalBroadcastActivity" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".base_knowledge.broadcast_receiver.sample.NormalThirdReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.NormalBroadcastActivity" />
+            </intent-filter>
+        </receiver>
+        <!--有序广播-->
+        <receiver android:name=".base_knowledge.broadcast_receiver.sample.OrderFirstReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.OrderBroadcastActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".base_knowledge.broadcast_receiver.sample.OrderSecondReceiver">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.OrderBroadcastActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".base_knowledge.broadcast_receiver.sample.OrderThirdReceiver">
+            <intent-filter android:priority="998">
+                <action android:name="android.intent.action.OrderBroadcastActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <!--********************************************ContentProvider*********************************-->
+        <provider
+            android:name=".base_knowledge.content_provider.sample.TeacherContentProvider"
+            android:authorities="hb.android.contentProvider"
+            android:multiprocess="false" />
+    </application>
+
+</manifest>

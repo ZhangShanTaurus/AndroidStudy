@@ -1,0 +1,1 @@
+我是assets文件下的hello_world.txt中的数据

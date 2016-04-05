@@ -149,5 +149,6 @@ class MyAdapter extends MyBaseAdapter {
 
     static class ViewHolder {
         private TextView textView;
+        //测试提交是否更改
     }
 }

@@ -49,6 +49,7 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
         list.add(R.string.ui);
         list.add(R.string.java_thread);
         list.add(R.string.communication);
+        list.add(R.string.data_parser);
         list.add(R.string.data_persistence);
         list.add(R.string.performance);
         list.add(R.string.debug);
@@ -77,6 +78,9 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
                 break;
             case R.string.communication:
                 myData = new MyData(list.get(i), new DataResource(Constance.COMMUNICATION).getList(), Constance.COMMUNICATION);
+                break;
+            case R.string.data_parser:
+                myData = new MyData(list.get(i), new DataResource(Constance.DATA_PARSER).getList(), Constance.DATA_PARSER);
                 break;
             case R.string.data_persistence:
                 myData = new MyData(list.get(i), new DataResource(Constance.PERSISTENCE).getList(), Constance.PERSISTENCE);

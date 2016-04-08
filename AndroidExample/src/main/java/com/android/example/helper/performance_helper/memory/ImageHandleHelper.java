@@ -7,6 +7,7 @@ import com.android.example.R;
 import com.android.example.common.Constance;
 import com.android.example.performance.memory.image_handle.LoadLargeImageActivity;
 import com.android.example.performance.memory.image_handle.fall_wall.FallWallActivity;
+import com.android.example.performance.memory.image_handle.load_large_img.LoadLargeImage2Activity;
 import com.android.example.performance.memory.image_handle.photo_wall.PhotoWallActivity;
 import com.android.example.utils.IntentUtils;
 
@@ -23,6 +24,11 @@ public class ImageHandleHelper {
                 bundle = new Bundle();
                 bundle.putInt(Constance.TITLE, R.string.load_big_img);
                 IntentUtils.intent(context, bundle, LoadLargeImageActivity.class, false);
+                break;
+            case R.string.load_big_img2:
+                bundle = new Bundle();
+                bundle.putInt(Constance.TITLE, R.string.load_big_img2);
+                IntentUtils.intent(context, bundle, LoadLargeImage2Activity.class, false);
                 break;
             case R.string.photo_wall:
                 bundle = new Bundle();

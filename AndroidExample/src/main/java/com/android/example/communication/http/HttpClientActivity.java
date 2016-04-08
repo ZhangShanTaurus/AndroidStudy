@@ -3,6 +3,7 @@ package com.android.example.communication.http;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -12,7 +13,29 @@ import com.android.example.R;
 import com.android.example.common.Constance;
 import com.android.example.main.BaseActivity;
 
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.HttpVersion;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpConnectionParams;
+import org.apache.http.params.HttpParams;
+import org.apache.http.params.HttpProtocolParams;
+import org.apache.http.protocol.HTTP;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.lang.ref.WeakReference;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 描述：HttpClientActivity
@@ -23,7 +46,7 @@ public class HttpClientActivity extends BaseActivity implements View.OnClickList
     private TextView tv_title;
     private Button btn_get;
     private Button btn_post;
-    private TextView textView;
+    private static TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,7 +86,7 @@ public class HttpClientActivity extends BaseActivity implements View.OnClickList
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
-                        result = httpByGet();
+                        useHttpClientGet(str_get);
                     }
                 }).start();
                 break;
@@ -72,7 +95,7 @@ public class HttpClientActivity extends BaseActivity implements View.OnClickList
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
-                        result = httpByPost();
+                        useHttpClientPost(str_post);
                     }
                 }).start();
                 break;
@@ -86,18 +109,96 @@ public class HttpClientActivity extends BaseActivity implements View.OnClickList
     private String result;
 
     /**
-     * Get请求
+     * 创建HttpClient
      */
-    public String httpByGet() {
-//        HttpClient client;
-        return result;
+    public HttpClient createHttpClient() {
+        HttpParams mDefaultHttpParams = new BasicHttpParams();
+        //设置连接超时
+        HttpConnectionParams.setConnectionTimeout(mDefaultHttpParams, 15000);
+        //设置请求超时
+        HttpConnectionParams.setSoTimeout(mDefaultHttpParams, 15000);
+        HttpConnectionParams.setTcpNoDelay(mDefaultHttpParams, true);
+        HttpProtocolParams.setVersion(mDefaultHttpParams, HttpVersion.HTTP_1_1);
+        HttpProtocolParams.setContentCharset(mDefaultHttpParams, HTTP.UTF_8);
+        //持续握手
+        HttpProtocolParams.setUseExpectContinue(mDefaultHttpParams, true);
+        HttpClient mHttpClient = new DefaultHttpClient(mDefaultHttpParams);
+        return mHttpClient;
     }
 
     /**
-     * Post请求
+     * 使用HttpClient的Get请求
      */
-    public String httpByPost() {
-        return result;
+    public void useHttpClientGet(String url) {
+        HttpGet httpGet = new HttpGet(url);
+        httpGet.addHeader("Connection", "Keep-Alive");
+        try {
+            HttpClient httpClient = createHttpClient();
+            HttpResponse httpResponse = httpClient.execute(httpGet);
+            HttpEntity entity = httpResponse.getEntity();
+            int code = httpResponse.getStatusLine().getStatusCode();
+            if (null != entity) {
+                InputStream inputStream = entity.getContent();
+                result = convertStreamToString(inputStream);
+                Log.e("", "请求状态码:" + code + "\n请求结果:\n" + result);
+                inputStream.close();
+            }
+        } catch (Exception e) {
+            result = "连接超时";
+            e.printStackTrace();
+        } finally {
+            Message message = Message.obtain();
+            message.obj = result;
+            handler.sendMessage(message);
+        }
+    }
+
+    /**
+     * 使用HttpClient的Post请求
+     */
+    private void useHttpClientPost(String url) {
+        HttpPost mHttpPost = new HttpPost(url);
+        mHttpPost.addHeader("Connection", "Keep-Alive");
+        try {
+            HttpClient mHttpClient = createHttpClient();
+            List<NameValuePair> postParams = new ArrayList<>();
+            //要传递的参数
+            postParams.add(new BasicNameValuePair("token", "866001029216760"));
+            postParams.add(new BasicNameValuePair("apiUrl", "getoken"));
+            postParams.add(new BasicNameValuePair("apiVersion", "K10"));
+            mHttpPost.setEntity(new UrlEncodedFormEntity(postParams));
+            HttpResponse mHttpResponse = mHttpClient.execute(mHttpPost);
+            HttpEntity mHttpEntity = mHttpResponse.getEntity();
+            int code = mHttpResponse.getStatusLine().getStatusCode();
+            if (null != mHttpEntity) {
+                InputStream mInputStream = mHttpEntity.getContent();
+                result = convertStreamToString(mInputStream);
+                Log.e("", "请求状态码:" + code + "\n请求结果:\n" + result);
+                mInputStream.close();
+            }
+        } catch (IOException e) {
+            result = "连接超时";
+            e.printStackTrace();
+        } finally {
+            Message message = Message.obtain();
+            message.obj = result;
+            handler.sendMessage(message);
+        }
+    }
+
+
+    /**
+     * 把Stream数据转换为String
+     */
+    private String convertStreamToString(InputStream is) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+        StringBuffer sb = new StringBuffer();
+        String line = null;
+        while ((line = reader.readLine()) != null) {
+            sb.append(line + "\n");
+        }
+        String response = sb.toString();
+        return response;
     }
 
     private MyHandler handler = new MyHandler(this);
@@ -114,7 +215,7 @@ public class HttpClientActivity extends BaseActivity implements View.OnClickList
 
         @Override
         public void handleMessage(Message msg) {
-
+            textView.setText(msg.obj.toString());
         }
     }
 }

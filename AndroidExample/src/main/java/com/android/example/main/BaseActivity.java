@@ -41,4 +41,11 @@ public abstract class BaseActivity extends Activity {
         super.onDestroy();
         //结束activity，从堆栈中移除
     }
+
+    /**
+     * 父类方法，子类去重写
+     * */
+    public void fatherMethod() {
+
+    }
 }

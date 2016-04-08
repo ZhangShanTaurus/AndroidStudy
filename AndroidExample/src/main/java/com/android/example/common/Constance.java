@@ -142,4 +142,9 @@ public class Constance {
 
     //*******************************************其他*******************************************
     public static final int OTHER = 140000;//其他
+
+
+    //*******************************************数据解析*******************************************
+    public static final int DATA_PARSER = 150000;//DataParser
+    public static final int DATA_XML_PARSER = 150001;//XML解析
 }

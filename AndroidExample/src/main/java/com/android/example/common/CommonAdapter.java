@@ -10,6 +10,7 @@ import com.android.example.R;
 import com.android.example.common.module.AdaptiveModule;
 import com.android.example.common.module.BaseKnowledgeModule;
 import com.android.example.common.module.CommunicationModule;
+import com.android.example.common.module.DataParserModule;
 import com.android.example.common.module.DebugModule;
 import com.android.example.common.module.ExtendModule;
 import com.android.example.common.module.MultiThreadModule;
@@ -24,6 +25,7 @@ import com.android.example.common.module.UIModule;
 import com.android.example.helper.AdaptiveHelper;
 import com.android.example.helper.BaseKnowledgeHelper;
 import com.android.example.helper.CommunicationHelper;
+import com.android.example.helper.DataParserHelper;
 import com.android.example.helper.DebugHelper;
 import com.android.example.helper.ExtendHelper;
 import com.android.example.helper.MultiThreadHelper;
@@ -52,6 +54,7 @@ public class CommonAdapter extends MyBaseAdapter {
     private UIModule uiModule;
     private MultiThreadModule multiThreadModule;
     private CommunicationModule communicationModule;
+    private DataParserModule dataParserModule;
     private PersistenceModule persistenceModule;
     private PerformanceModule performanceModule;
     private PhoneFunctionModule phoneFunctionModule;
@@ -77,6 +80,7 @@ public class CommonAdapter extends MyBaseAdapter {
         uiModule = new UIModule(context, list);
         multiThreadModule = new MultiThreadModule(context, list);
         communicationModule = new CommunicationModule(context, list);
+        dataParserModule = new DataParserModule(context, list);
         persistenceModule = new PersistenceModule(context, list);
         performanceModule = new PerformanceModule(context, list);
         phoneFunctionModule = new PhoneFunctionModule(context, list);
@@ -129,6 +133,7 @@ public class CommonAdapter extends MyBaseAdapter {
             uiModule.myModule(type, position);
             multiThreadModule.myModule(type, position);
             communicationModule.myModule(type, position);
+            dataParserModule.myModule(type, position);
             persistenceModule.myModule(type, position);
             performanceModule.myModule(type, position);
             phoneFunctionModule.myModule(type, position);
@@ -161,6 +166,9 @@ public class CommonAdapter extends MyBaseAdapter {
                 break;
             case Constance.COMMUNICATION:
                 CommunicationHelper.goNext(context, list.get(position));
+                break;
+            case Constance.DATA_PARSER:
+                DataParserHelper.goNext(context, list.get(position));
                 break;
             case Constance.PERSISTENCE:
                 PersistenceHelper.goNext(context, list.get(position));

@@ -83,6 +83,18 @@ public class DataResource {
             case Constance.ANDROID_SDK:
                 list = new ArrayList<Integer>();
                 break;
+            case Constance.DATA_PARSER:
+                list = new ArrayList<Integer>();
+                list.add(R.string.json_parser);
+                list.add(R.string.xml_parser);
+                break;
+            case Constance.DATA_XML_PARSER:
+                list = new ArrayList<Integer>();
+                list.add(R.string.xml_base_info);
+                list.add(R.string.pull_parser);
+                list.add(R.string.sax_parser);
+                list.add(R.string.dom_parser);
+                break;
             case Constance.MULTI_THREAD:
                 list = new ArrayList<Integer>();
                 list.add(R.string.thread_concept);
@@ -577,6 +589,7 @@ public class DataResource {
             case Constance.PERFORMANCE_MEMORY_OPTIMIZE_IMAGE_HANDLE:
                 list = new ArrayList<>();
                 list.add(R.string.load_big_img);
+                list.add(R.string.load_big_img2);
                 list.add(R.string.photo_wall);
                 list.add(R.string.fall_wall);
                 list.add(R.string.multipoint_touch);

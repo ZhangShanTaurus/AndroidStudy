@@ -8,6 +8,7 @@ import com.android.example.common.CommonActivity;
 import com.android.example.common.Constance;
 import com.android.example.common.DataResource;
 import com.android.example.common.MyData;
+import com.android.example.communication.BluetoothActivity;
 import com.android.example.communication.socket.SocketActivity;
 import com.android.example.utils.IntentUtils;
 
@@ -43,7 +44,7 @@ public class CommunicationHelper {
             case R.string.bluetooth:
                 bundle = new Bundle();
                 bundle.putInt(Constance.TITLE, R.string.bluetooth);
-                IntentUtils.intent(context, bundle, SocketActivity.class, false);
+                IntentUtils.intent(context, bundle, BluetoothActivity.class, false);
                 break;
             case R.string.nfc:
                 bundle = new Bundle();

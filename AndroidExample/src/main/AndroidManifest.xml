@@ -19,6 +19,8 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <!-- 拨打电话权限 -->
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!--蓝牙权限-->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
 
     <application
         android:name=".app.MyApplication"
@@ -210,6 +212,7 @@
         <activity android:name=".performance.memory.image_handle.photo_wall.PhotoWallActivity" />
         <activity android:name=".performance.memory.image_handle.fall_wall.FallWallActivity" />
         <activity android:name=".performance.memory.image_handle.multipoint_touch.MultipointTouchActivity" />
+        <activity android:name=".performance.memory.image_handle.load_large_img.LoadLargeImage2Activity" />
 
         <activity android:name=".base_knowledge.design_mode.singleton.SingletonActivity" />
         <activity android:name=".base_knowledge.design_mode.proxy.ProxyActivity" />
@@ -227,6 +230,8 @@
         <activity android:name=".communication.socket.SocketAndTcpActivity" />
         <activity android:name=".communication.socket.SocketAndHttpActivity" />
 
+        <activity android:name=".communication.BluetoothActivity" />
+
         <activity android:name=".multi_thread.ThreadCommonInfoActivity" />
         <activity android:name=".multi_thread.create_run.ThreadCreateRunActivity" />
         <activity android:name=".multi_thread.sync_lock.ThreadSyncProblemActivity" />
@@ -234,6 +239,10 @@
         <activity android:name=".ui.view.custom.ViewCustomActivity" />
         <activity android:name=".ui.openGL.OpenGLActivity" />
         <activity android:name=".ui.event_dispatch.EventDispatchActivity" />
+
+        <activity android:name=".data_parser.JsonParserActivity" />
+        <activity android:name=".data_parser.xml.XMLBaseInfoActivity" />
+        <activity android:name=".data_parser.xml.XMLParserActivity" />
 
         <!--****************************************Service*******************************************-->
         <service android:name=".base_knowledge.service.sample.SimpleService" />
@@ -300,6 +309,10 @@
             android:name=".base_knowledge.content_provider.sample.TeacherContentProvider"
             android:authorities="hb.android.contentProvider"
             android:multiprocess="false" />
-    </application>
 
+        <!--友盟多渠道打包，value:channel_id是渠道标号-->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}" />
+    </application>
 </manifest>

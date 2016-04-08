@@ -59,7 +59,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="@dimen/margin_10"
                 android:maxLines="5"
-                android:text="被废弃了"
+                android:text="6.0之后被移除了"
                 android:textColor="@color/Red"
                 android:textSize="20sp" />
 

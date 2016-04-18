@@ -2,6 +2,7 @@ package com.android.example.main;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,6 +34,7 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
         setContentView(R.layout.activity_main_layout);
         initData();
         initView();
+        maoPaoSort();
     }
 
     @Override
@@ -60,6 +62,31 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
         list.add(R.string.phone_function);
         list.add(R.string.extend);
         list.add(R.string.other);
+    }
+
+
+    /**
+     * 冒泡排序
+     */
+    public void maoPaoSort() {
+        int arrays[] = {100, 88, 95, 76, 40, 67};
+        int length = arrays.length;
+        Log.e("", length + "");
+        for (int i = 0; i < length - 1; i++) {
+            for (int j = 0; j < length - i - 1; j++) {
+                if (arrays[j] < arrays[j + 1]) {
+                    //把小的值放到后面
+                    int temp = arrays[j];
+                    arrays[j] = arrays[j + 1];
+                    arrays[j + 1] = temp;
+                }
+            }
+        }
+
+        Log.e("", "结果为:");
+        for (int a = 0; a < length; a++) {
+            Log.e("", arrays[a] + "");
+        }
     }
 
     private MyData myData;

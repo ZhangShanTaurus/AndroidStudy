@@ -35,6 +35,7 @@ public class DestroySevWayActivity extends BaseActivity implements View.OnClickL
 
     @Override
     public void initData() {
+
         if (getIntent().getExtras() != null) {
             tv_title.setText(getIntent().getExtras().getInt(Constance.TITLE));
         }

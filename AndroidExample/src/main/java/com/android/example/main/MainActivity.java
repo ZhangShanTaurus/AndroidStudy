@@ -35,6 +35,7 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
         initData();
         initView();
         maoPaoSort();
+        diGui(5);
     }
 
     @Override
@@ -86,6 +87,21 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
         Log.e("", "结果为:");
         for (int a = 0; a < length; a++) {
             Log.e("", arrays[a] + "");
+        }
+    }
+
+
+    /**
+     * 递归算法
+     */
+    private int diGui(int index) {
+        int sum = 0;
+        if (index == 0) {
+            return 1;
+        } else {
+            sum = index * diGui(index - 1);
+            Log.e("", "sum--" + sum);
+            return sum;
         }
     }
 

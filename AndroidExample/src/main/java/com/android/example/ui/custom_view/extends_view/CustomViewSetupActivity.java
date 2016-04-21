@@ -22,6 +22,7 @@ public class CustomViewSetupActivity extends BaseActivity implements View.OnClic
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_custon_view_setup_layout);
+
         initView();
         initData();
     }

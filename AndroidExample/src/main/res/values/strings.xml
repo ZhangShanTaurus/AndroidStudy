@@ -853,4 +853,11 @@
     <string name="pull_parser_info">PULL解析并未像SAX解析那样监听元素的结束，而是在开始处完成了大部分处理。这有利于提早读取XML文件，可以极大的减少解析时间，这种优化对于连 接速度较漫的移动设备而言尤为重要。对于XML文档较大但只需要文档的一部分时，XML Pull解析器则是更为有效的方法。</string>
     <string name="sax_parser_info">SAX则是以事件作为解析XML文件的模式，它将XML文件转化成一系列的事件，由不同的事件处理器来决定如何处理。XML文件较大时，选择SAX技术是 比较合理的。虽然代码量有些大，但是它不需要将所有的XML文件加载到内存中。这样对于有限的Android内存更有效，而且Android提供了一种传 统的SAX使用方法以及一个便捷的SAX包装器。 使用Android．util．Xml类，从示例中可以看出，会比使用 SAX来得简单。</string>
     <string name="dom_parser_info">DOM在处理XML文件时，将XML文件解析成树状结构并放入内存中进行处理。当XML文件较小时，我们可以选DOM，因为它简单、直观。</string>
+    <string name="surface_view_info">SurfaceView是视图(View)的继承类，这个视图里内嵌了一个专门用于绘制的Surface。你可以控制这个Surface的格式和尺寸。SurfaceView控制这个Surface的绘制位置。\n\n
+        surface是纵深排序(Z-ordered)的，这表明它总在自己所在窗口的后面。surfaceView提供了一个可见区域，只有在这个可见区域内 的surface部分内容才可见，可见区域外的部分不可见。surface的排版显示受到视图层级关系的影响，它的兄弟视图结点会在顶端显示。这意味者 surface的内容会被它的兄弟视图遮挡，这一特性可以用来放置遮盖物(overlays)(例如，文本和按钮等控件)。注意，如果surface上面 有透明控件，那么它的每次变化都会引起框架重新计算它和顶层控件的透明效果，这会影响性能。\n
+        你可以通过SurfaceHolder接口访问这个surface，getHolder()方法可以得到这个接口。\n
+        SurfaceView变得可见时，surface被创建；SurfaceView隐藏前，surface被销毁。这样能节省资源。如果你要查看 surface被创建和销毁的时机，可以重载surfaceCreated(SurfaceHolder)和 surfaceDestroyed(SurfaceHolder)。\n
+        SurfaceView的核心在于提供了两个线程：UI线程和渲染线程。这里应注意：\n
+        1> 所有SurfaceView和SurfaceHolder.Callback的方法都应该在UI线程里调用，一般来说就是应用程序主线程。渲染线程所要访问的各种变量应该作同步处理。\n
+        2> 由于surface可能被销毁，它只在SurfaceHolder.Callback.surfaceCreated()和 SurfaceHolder.Callback.surfaceDestroyed()之间有效，所以要确保渲染线程访问的是合法有效的surface。\n</string>
 </resources>

@@ -140,7 +140,7 @@ class MySurfaceView extends SurfaceView implements SurfaceHolder.Callback, Runna
                 paint.setColor(Color.RED);
                 paint.setTextSize(31);
                 canvas.drawRect(rect, paint);
-                h += 20;
+//                h += 20;
                 canvas.drawText("Time:" + count++, 100.0f, h, paint);
                 Log.e("", "h=" + h);
             }

@@ -22,9 +22,24 @@
         <TextView style="@style/title_line_style" />
     </RelativeLayout>
 
-    <com.android.example.ui.view.expert.MySurfaceView
-        android:id="@+id/mySurfaceView"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="@dimen/margin_10" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.android.example.ui.view.expert.MySurfaceView
+                android:id="@+id/mySurfaceView"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="@dimen/margin_10" />
+
+            <TextView
+                style="@style/TextView_Notice_Style"
+                android:text="@string/surface_view_info" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

@@ -10,9 +10,10 @@ interface MyAIDLService {
      */
     void basicTypes(int anInt, long aLong, boolean aBoolean, float aFloat,
             double aDouble, String aString);
-            /**
-            *return: a+b
-            * */
+
+    /**
+     * return: a+b
+     * */
     int add(int a,int b);
     /**
     * return:str

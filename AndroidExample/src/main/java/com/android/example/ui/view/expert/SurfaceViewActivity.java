@@ -8,6 +8,7 @@ import android.graphics.PixelFormat;
 import android.graphics.Rect;
 import android.os.Bundle;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
@@ -127,11 +128,10 @@ class MySurfaceView extends SurfaceView implements SurfaceHolder.Callback, Runna
         }
     }
 
-    int count = 0;
-    float h = 310f;
+    static int count = 0;
+    static float h = 300f;
 
     public void draw() {
-
         try {
             canvas = holder.lockCanvas();
             if (canvas != null) {
@@ -140,7 +140,9 @@ class MySurfaceView extends SurfaceView implements SurfaceHolder.Callback, Runna
                 paint.setColor(Color.RED);
                 paint.setTextSize(31);
                 canvas.drawRect(rect, paint);
-                canvas.drawText("Time:" + count++, 100.0f, h + 10, paint);
+                h += 20;
+                canvas.drawText("Time:" + count++, 100.0f, h, paint);
+                Log.e("", "h=" + h);
             }
         } catch (Exception e) {
             e.printStackTrace();

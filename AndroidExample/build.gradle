@@ -9,7 +9,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.android.example"
+        applicationId "com.zss.example"
         minSdkVersion 11
         targetSdkVersion 23
         versionCode 1

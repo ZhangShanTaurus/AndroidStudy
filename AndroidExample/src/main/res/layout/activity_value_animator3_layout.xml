@@ -65,7 +65,7 @@
                 android:textColor="@color/Red"
                 android:textSize="20sp" />
 
-            <com.android.example.ui.anim.property_animation.sample.ValueAnimatorPointView
+            <com.zss.example.ui.anim.property_animation.sample.ValueAnimatorPointView
                 android:id="@+id/pointView"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"

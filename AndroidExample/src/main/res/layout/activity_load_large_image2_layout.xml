@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.android.example.performance.memory.image_handle.load_large_img.LargeImageView
+        <com.zss.example.performance.memory.image_handle.load_large_img.LargeImageView
             android:id="@+id/largeImageView"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

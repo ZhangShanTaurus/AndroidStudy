@@ -25,14 +25,14 @@
 
     <fragment
         android:id="@+id/fragment_title"
-        android:name="com.android.example.base_knowledge.fragment.sample.TitleFragment"
+        android:name="com.zss.example.base_knowledge.fragment.sample.TitleFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout="@layout/fragment_title_layout" />
 
     <fragment
         android:id="@+id/fragment_content"
-        android:name="com.android.example.base_knowledge.fragment.sample.ContentFragment"
+        android:name="com.zss.example.base_knowledge.fragment.sample.ContentFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout="@layout/fragment_content_layout" />

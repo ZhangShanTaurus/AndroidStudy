@@ -38,7 +38,7 @@
                 android:layout_margin="5dp"
                 android:text="开始动画" />
 
-            <com.android.example.ui.anim.property_animation.sample.ObjectAnimatorPointView
+            <com.zss.example.ui.anim.property_animation.sample.ObjectAnimatorPointView
                 android:id="@+id/objectAnimatorPointView"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"

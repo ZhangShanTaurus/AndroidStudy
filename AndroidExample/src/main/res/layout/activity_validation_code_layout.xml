@@ -35,7 +35,7 @@
             android:gravity="center_horizontal"
             android:orientation="horizontal">
 
-            <com.android.example.ui.custom_view.extends_view.validation_code.ValidationCodeView
+            <com.zss.example.ui.custom_view.extends_view.validation_code.ValidationCodeView
                 android:id="@+id/codeView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

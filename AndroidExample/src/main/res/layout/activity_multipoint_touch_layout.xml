@@ -22,7 +22,7 @@
         <TextView style="@style/title_line_style" />
     </RelativeLayout>
 
-    <com.android.example.performance.memory.image_handle.multipoint_touch.ZoomImageView
+    <com.zss.example.performance.memory.image_handle.multipoint_touch.ZoomImageView
         android:id="@+id/zoomImageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

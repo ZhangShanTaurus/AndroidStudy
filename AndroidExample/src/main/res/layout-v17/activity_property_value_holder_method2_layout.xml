@@ -38,7 +38,7 @@
                 android:layout_margin="5dp"
                 android:text="start" />
 
-            <com.android.example.ui.anim.property_animation.sample.MyTextView
+            <com.zss.example.ui.anim.property_animation.sample.MyTextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"

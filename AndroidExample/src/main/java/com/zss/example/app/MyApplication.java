@@ -18,5 +18,6 @@ public class MyApplication extends Application {
         super.onCreate();
         instance = this;
         //添加一条测试信息
+        //本地添加测试数据
     }
 }

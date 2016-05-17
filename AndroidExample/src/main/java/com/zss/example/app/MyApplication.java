@@ -17,5 +17,6 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         instance = this;
+        //添加一条测试信息
     }
 }
